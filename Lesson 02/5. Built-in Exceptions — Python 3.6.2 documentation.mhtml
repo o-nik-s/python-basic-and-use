@@ -1,0 +1,2664 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: file:///C:/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%8F/GitHubs/GitHub/python-basic-and-use/Lesson%2002/5.%20Built-in%20Exceptions%20%E2%80%94%20Python%203.6.2%20documentation.html
+Subject: =?utf-8?Q?5.=20Built-in=20Exceptions=20=E2=80=94=20Python=203.6.2=20docum?=
+ =?utf-8?Q?entation?=
+Date: Sun, 6 Mar 2022 23:18:56 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--NOQildmfcujA6HOyxp5L62T6O6GJFmI3HhqFpCJu8B----"
+
+
+------MultipartBoundary--NOQildmfcujA6HOyxp5L62T6O6GJFmI3HhqFpCJu8B----
+Content-Type: text/html
+Content-ID: <frame-EC60F8169D9F1115E7F48E03F8818979@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%8F/GitHubs/GitHub/python-basic-and-use/Lesson%2002/5.%20Built-in%20Exceptions%20%E2%80%94%20Python%203.6.2%20documentation.html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!-- saved from url=3D(0069)h=
+ttps://docs.python.org/3/library/exceptions.html#exception-hierarchy --><ht=
+ml xmlns=3D"http://www.w3.org/1999/xhtml" class=3D"gr__docs_python_org"><he=
+ad><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"=
+><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-0aab4b55-46ab-4=
+a9c-a331-98c288c8ed51@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-7f5cdc32-71b6-46f5-a8a9-0f52a7397fee@mhtml.blink" />
+   =20
+   =20
+    <title>5. Built-in Exceptions =E2=80=94 Python 3.6.2 documentation</tit=
+le>
+   =20
+    <link rel=3D"stylesheet" href=3D"file:///C:/%D0%A0%D0%B0%D0%B1%D0%BE%D1=
+%87%D0%B0%D1%8F/GitHubs/GitHub/python-basic-and-use/Lesson%2002/5.%20Built-=
+in%20Exceptions%20%E2%80%94%20Python%203.6.2%20documentation_files/pydocthe=
+me.css" type=3D"text/css">
+    <link rel=3D"stylesheet" href=3D"file:///C:/%D0%A0%D0%B0%D0%B1%D0%BE%D1=
+%87%D0%B0%D1%8F/GitHubs/GitHub/python-basic-and-use/Lesson%2002/5.%20Built-=
+in%20Exceptions%20%E2%80%94%20Python%203.6.2%20documentation_files/pygments=
+.css" type=3D"text/css">
+   =20
+   =20
+   =20
+   =20
+   =20
+   =20
+    <link rel=3D"search" type=3D"application/opensearchdescription+xml" tit=
+le=3D"Search within Python 3.6.2 documentation" href=3D"https://docs.python=
+.org/3/_static/opensearch.xml">
+    <link rel=3D"author" title=3D"About these documents" href=3D"https://do=
+cs.python.org/3/about.html">
+    <link rel=3D"index" title=3D"Index" href=3D"https://docs.python.org/3/g=
+enindex.html">
+    <link rel=3D"search" title=3D"Search" href=3D"https://docs.python.org/3=
+/search.html">
+    <link rel=3D"copyright" title=3D"Copyright" href=3D"https://docs.python=
+.org/3/copyright.html">
+    <link rel=3D"next" title=3D"6. Text Processing Services" href=3D"https:=
+//docs.python.org/3/library/text.html">
+    <link rel=3D"prev" title=3D"4. Built-in Types" href=3D"https://docs.pyt=
+hon.org/3/library/stdtypes.html">
+    <link rel=3D"shortcut icon" type=3D"image/png" href=3D"file:///C:/%D0%A=
+0%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%8F/GitHubs/GitHub/python-basic-and-use/L=
+esson%2002/5.%20Built-in%20Exceptions%20%E2%80%94%20Python%203.6.2%20docume=
+ntation_files/py.png">
+    <link rel=3D"canonical" href=3D"https://docs.python.org/3/library/excep=
+tions.html">
+   =20
+   =20
+   =20
+   =20
+   =20
+=20
+
+  </head>
+  <body data-gr-c-s-loaded=3D"true"> =20
+    <div class=3D"related" role=3D"navigation" aria-label=3D"related naviga=
+tion">
+      <h3>Navigation</h3>
+      <ul>
+        <li class=3D"right" style=3D"margin-right: 10px">
+          <a href=3D"https://docs.python.org/3/genindex.html" title=3D"Gene=
+ral Index" accesskey=3D"I">index</a></li>
+        <li class=3D"right">
+          <a href=3D"https://docs.python.org/3/py-modindex.html" title=3D"P=
+ython Module Index">modules</a> |</li>
+        <li class=3D"right">
+          <a href=3D"https://docs.python.org/3/library/text.html" title=3D"=
+6. Text Processing Services" accesskey=3D"N">next</a> |</li>
+        <li class=3D"right">
+          <a href=3D"https://docs.python.org/3/library/stdtypes.html" title=
+=3D"4. Built-in Types" accesskey=3D"P">previous</a> |</li>
+        <li><img src=3D"file:///C:/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%=
+8F/GitHubs/GitHub/python-basic-and-use/Lesson%2002/5.%20Built-in%20Exceptio=
+ns%20%E2%80%94%20Python%203.6.2%20documentation_files/py.png" alt=3D"" styl=
+e=3D"vertical-align: middle; margin-top: -1px"></li>
+        <li><a href=3D"https://www.python.org/">Python</a> =C2=BB</li>
+        <li>
+          <span class=3D"language_switcher_placeholder"><select><option val=
+ue=3D"en" selected=3D"selected">English</option><option value=3D"fr">French=
+</option><option value=3D"ja">Japanese</option></select></span>
+          <span class=3D"version_switcher_placeholder"><select><option valu=
+e=3D"3.7">dev (3.7)</option><option value=3D"3.6" selected=3D"selected">3.6=
+.2</option><option value=3D"3.5">3.5</option><option value=3D"3.4">3.4</opt=
+ion><option value=3D"3.3">3.3</option><option value=3D"2.7">2.7</option></s=
+elect></span>
+          <a href=3D"https://docs.python.org/3/index.html">Documentation </=
+a> =C2=BB
+        </li>
+
+          <li class=3D"nav-item nav-item-1"><a href=3D"https://docs.python.=
+org/3/library/index.html" accesskey=3D"U">The Python Standard Library</a> =
+=C2=BB</li>
+    <li class=3D"right">
+       =20
+
+    <div class=3D"inline-search" style=3D"" role=3D"search">
+        <form class=3D"inline-search" action=3D"https://docs.python.org/3/s=
+earch.html" method=3D"get">
+          <input placeholder=3D"Quick search" type=3D"text" name=3D"q">
+          <input type=3D"submit" value=3D"Go">
+         =20
+         =20
+        </form>
+    </div>
+   =20
+         |
+    </li>
+
+      </ul>
+    </div>   =20
+
+    <div class=3D"document">
+      <div class=3D"documentwrapper">
+        <div class=3D"bodywrapper">
+          <div class=3D"body" role=3D"main">
+           =20
+  <div class=3D"section yobject-marked" id=3D"built-in-exceptions">
+<span id=3D"bltin-exceptions"></span><h1>5. Built-in Exceptions<a class=3D"=
+headerlink" href=3D"https://docs.python.org/3/library/exceptions.html#built=
+-in-exceptions" title=3D"Permalink to this headline">=C2=B6</a></h1>
+<p id=3D"index-0">In Python, all exceptions must be instances of a class th=
+at derives from
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/e=
+xceptions.html#BaseException" title=3D"BaseException"><code class=3D"xref p=
+y py-class docutils literal"><span class=3D"pre">BaseException</span></code=
+></a>.  In a <a class=3D"reference internal" href=3D"https://docs.python.or=
+g/3/reference/compound_stmts.html#try"><code class=3D"xref std std-keyword =
+docutils literal"><span class=3D"pre">try</span></code></a> statement with =
+an <a class=3D"reference internal" href=3D"https://docs.python.org/3/refere=
+nce/compound_stmts.html#except"><code class=3D"xref std std-keyword docutil=
+s literal"><span class=3D"pre">except</span></code></a>
+clause that mentions a particular class, that clause also handles any excep=
+tion
+classes derived from that class (but not exception classes from which <em>i=
+t</em> is
+derived).  Two exception classes that are not related via subclassing are n=
+ever
+equivalent, even if they have the same name.</p>
+<p id=3D"index-1">The built-in exceptions listed below can be generated by =
+the interpreter or
+built-in functions.  Except where mentioned, they have an =E2=80=9Cassociat=
+ed value=E2=80=9D
+indicating the detailed cause of the error.  This may be a string or a tupl=
+e of
+several items of information (e.g., an error code and a string explaining t=
+he
+code).  The associated value is usually passed as arguments to the exceptio=
+n
+class=E2=80=99s constructor.</p>
+<p>User code can raise built-in exceptions.  This can be used to test an ex=
+ception
+handler or to report an error condition =E2=80=9Cjust like=E2=80=9D the sit=
+uation in which the
+interpreter raises the same exception; but beware that there is nothing to
+prevent user code from raising an inappropriate error.</p>
+<p>The built-in exception classes can be subclassed to define new exception=
+s;
+programmers are encouraged to derive new exceptions from the <a class=3D"re=
+ference internal" href=3D"https://docs.python.org/3/library/exceptions.html=
+#Exception" title=3D"Exception"><code class=3D"xref py py-exc docutils lite=
+ral"><span class=3D"pre">Exception</span></code></a>
+class or one of its subclasses, and not from <a class=3D"reference internal=
+" href=3D"https://docs.python.org/3/library/exceptions.html#BaseException" =
+title=3D"BaseException"><code class=3D"xref py py-exc docutils literal"><sp=
+an class=3D"pre">BaseException</span></code></a>.  More
+information on defining exceptions is available in the Python Tutorial unde=
+r
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/tutorial/=
+errors.html#tut-userexceptions"><span class=3D"std std-ref">User-defined Ex=
+ceptions</span></a>.</p>
+<p>When raising (or re-raising) an exception in an <a class=3D"reference in=
+ternal" href=3D"https://docs.python.org/3/reference/compound_stmts.html#exc=
+ept"><code class=3D"xref std std-keyword docutils literal"><span class=3D"p=
+re">except</span></code></a> or
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/reference=
+/compound_stmts.html#finally"><code class=3D"xref std std-keyword docutils =
+literal"><span class=3D"pre">finally</span></code></a> clause
+<code class=3D"xref py py-attr docutils literal"><span class=3D"pre">__cont=
+ext__</span></code> is automatically set to the last exception caught; if t=
+he
+new exception is not handled the traceback that is eventually displayed wil=
+l
+include the originating exception(s) and the final exception.</p>
+<p>When raising a new exception (rather than using a bare <code class=3D"do=
+cutils literal"><span class=3D"pre">raise</span></code> to re-raise
+the exception currently being handled), the implicit exception context can =
+be
+supplemented with an explicit cause by using <a class=3D"reference internal=
+" href=3D"https://docs.python.org/3/reference/simple_stmts.html#from"><code=
+ class=3D"xref std std-keyword docutils literal"><span class=3D"pre">from</=
+span></code></a> with
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/reference=
+/simple_stmts.html#raise"><code class=3D"xref std std-keyword docutils lite=
+ral"><span class=3D"pre">raise</span></code></a>:</p>
+<div class=3D"highlight-python3" style=3D"position: relative;"><div class=
+=3D"highlight"><pre><span></span><span class=3D"k">raise</span> <span class=
+=3D"n">new_exc</span> <span class=3D"kn">from</span> <span class=3D"nn">ori=
+ginal_exc</span>
+</pre></div>
+</div>
+<p>The expression following <a class=3D"reference internal" href=3D"https:/=
+/docs.python.org/3/reference/simple_stmts.html#from"><code class=3D"xref st=
+d std-keyword docutils literal"><span class=3D"pre">from</span></code></a> =
+must be an exception or <code class=3D"docutils literal"><span class=3D"pre=
+">None</span></code>. It
+will be set as <code class=3D"xref py py-attr docutils literal"><span class=
+=3D"pre">__cause__</span></code> on the raised exception. Setting
+<code class=3D"xref py py-attr docutils literal"><span class=3D"pre">__caus=
+e__</span></code> also implicitly sets the <code class=3D"xref py py-attr d=
+ocutils literal"><span class=3D"pre">__suppress_context__</span></code>
+attribute to <code class=3D"docutils literal"><span class=3D"pre">True</spa=
+n></code>, so that using <code class=3D"docutils literal"><span class=3D"pr=
+e">raise</span> <span class=3D"pre">new_exc</span> <span class=3D"pre">from=
+</span> <span class=3D"pre">None</span></code>
+effectively replaces the old exception with the new one for display
+purposes (e.g. converting <a class=3D"reference internal" href=3D"https://d=
+ocs.python.org/3/library/exceptions.html#KeyError" title=3D"KeyError"><code=
+ class=3D"xref py py-exc docutils literal"><span class=3D"pre">KeyError</sp=
+an></code></a> to <a class=3D"reference internal" href=3D"https://docs.pyth=
+on.org/3/library/exceptions.html#AttributeError" title=3D"AttributeError"><=
+code class=3D"xref py py-exc docutils literal"><span class=3D"pre">Attribut=
+eError</span></code></a>, while
+leaving the old exception available in <code class=3D"xref py py-attr docut=
+ils literal"><span class=3D"pre">__context__</span></code> for introspectio=
+n
+when debugging.</p>
+<p>The default traceback display code shows these chained exceptions in
+addition to the traceback for the exception itself. An explicitly chained
+exception in <code class=3D"xref py py-attr docutils literal"><span class=
+=3D"pre">__cause__</span></code> is always shown when present. An implicitl=
+y
+chained exception in <code class=3D"xref py py-attr docutils literal"><span=
+ class=3D"pre">__context__</span></code> is shown only if <code class=3D"xr=
+ef py py-attr docutils literal"><span class=3D"pre">__cause__</span></code>
+is <a class=3D"reference internal" href=3D"https://docs.python.org/3/librar=
+y/constants.html#None" title=3D"None"><code class=3D"xref py py-const docut=
+ils literal"><span class=3D"pre">None</span></code></a> and <code class=3D"=
+xref py py-attr docutils literal"><span class=3D"pre">__suppress_context__<=
+/span></code> is false.</p>
+<p>In either case, the exception itself is always shown after any chained
+exceptions so that the final line of the traceback always shows the last
+exception that was raised.</p>
+<div class=3D"section" id=3D"base-classes">
+<h2>5.1. Base classes<a class=3D"headerlink" href=3D"https://docs.python.or=
+g/3/library/exceptions.html#base-classes" title=3D"Permalink to this headli=
+ne">=C2=B6</a></h2>
+<p>The following exceptions are used mostly as base classes for other excep=
+tions.</p>
+<dl class=3D"exception">
+<dt id=3D"BaseException">
+<em class=3D"property">exception </em><code class=3D"descname">BaseExceptio=
+n</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/e=
+xceptions.html#BaseException" title=3D"Permalink to this definition">=C2=B6=
+</a></dt>
+<dd><p>The base class for all built-in exceptions.  It is not meant to be d=
+irectly
+inherited by user-defined classes (for that, use <a class=3D"reference inte=
+rnal" href=3D"https://docs.python.org/3/library/exceptions.html#Exception" =
+title=3D"Exception"><code class=3D"xref py py-exc docutils literal"><span c=
+lass=3D"pre">Exception</span></code></a>).  If
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/s=
+tdtypes.html#str" title=3D"str"><code class=3D"xref py py-func docutils lit=
+eral"><span class=3D"pre">str()</span></code></a> is called on an instance =
+of this class, the representation of
+the argument(s) to the instance are returned, or the empty string when
+there were no arguments.</p>
+<dl class=3D"attribute">
+<dt id=3D"BaseException.args">
+<code class=3D"descname">args</code><a class=3D"headerlink" href=3D"https:/=
+/docs.python.org/3/library/exceptions.html#BaseException.args" title=3D"Per=
+malink to this definition">=C2=B6</a></dt>
+<dd><p>The tuple of arguments given to the exception constructor.  Some bui=
+lt-in
+exceptions (like <a class=3D"reference internal" href=3D"https://docs.pytho=
+n.org/3/library/exceptions.html#OSError" title=3D"OSError"><code class=3D"x=
+ref py py-exc docutils literal"><span class=3D"pre">OSError</span></code></=
+a>) expect a certain number of arguments and
+assign a special meaning to the elements of this tuple, while others are
+usually called only with a single string giving an error message.</p>
+</dd></dl>
+
+<dl class=3D"method">
+<dt id=3D"BaseException.with_traceback">
+<code class=3D"descname">with_traceback</code><span class=3D"sig-paren">(</=
+span><em>tb</em><span class=3D"sig-paren">)</span><a class=3D"headerlink" h=
+ref=3D"https://docs.python.org/3/library/exceptions.html#BaseException.with=
+_traceback" title=3D"Permalink to this definition">=C2=B6</a></dt>
+<dd><p>This method sets <em>tb</em> as the new traceback for the exception =
+and returns
+the exception object.  It is usually used in exception handling code like
+this:</p>
+<div class=3D"highlight-python3" style=3D"position: relative;"><div class=
+=3D"highlight"><pre><span></span><span class=3D"k">try</span><span class=3D=
+"p">:</span>
+    <span class=3D"o">...</span>
+<span class=3D"k">except</span> <span class=3D"n">SomeException</span><span=
+ class=3D"p">:</span>
+    <span class=3D"n">tb</span> <span class=3D"o">=3D</span> <span class=3D=
+"n">sys</span><span class=3D"o">.</span><span class=3D"n">exc_info</span><s=
+pan class=3D"p">()[</span><span class=3D"mi">2</span><span class=3D"p">]</s=
+pan>
+    <span class=3D"k">raise</span> <span class=3D"n">OtherException</span><=
+span class=3D"p">(</span><span class=3D"o">...</span><span class=3D"p">)</s=
+pan><span class=3D"o">.</span><span class=3D"n">with_traceback</span><span =
+class=3D"p">(</span><span class=3D"n">tb</span><span class=3D"p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"Exception">
+<em class=3D"property">exception </em><code class=3D"descname">Exception</c=
+ode><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/excep=
+tions.html#Exception" title=3D"Permalink to this definition">=C2=B6</a></dt=
+>
+<dd><p>All built-in, non-system-exiting exceptions are derived from this cl=
+ass.  All
+user-defined exceptions should also be derived from this class.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"ArithmeticError">
+<em class=3D"property">exception </em><code class=3D"descname">ArithmeticEr=
+ror</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library=
+/exceptions.html#ArithmeticError" title=3D"Permalink to this definition">=
+=C2=B6</a></dt>
+<dd><p>The base class for those built-in exceptions that are raised for var=
+ious
+arithmetic errors: <a class=3D"reference internal" href=3D"https://docs.pyt=
+hon.org/3/library/exceptions.html#OverflowError" title=3D"OverflowError"><c=
+ode class=3D"xref py py-exc docutils literal"><span class=3D"pre">OverflowE=
+rror</span></code></a>, <a class=3D"reference internal" href=3D"https://doc=
+s.python.org/3/library/exceptions.html#ZeroDivisionError" title=3D"ZeroDivi=
+sionError"><code class=3D"xref py py-exc docutils literal"><span class=3D"p=
+re">ZeroDivisionError</span></code></a>,
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/e=
+xceptions.html#FloatingPointError" title=3D"FloatingPointError"><code class=
+=3D"xref py py-exc docutils literal"><span class=3D"pre">FloatingPointError=
+</span></code></a>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"BufferError">
+<em class=3D"property">exception </em><code class=3D"descname">BufferError<=
+/code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/exc=
+eptions.html#BufferError" title=3D"Permalink to this definition">=C2=B6</a>=
+</dt>
+<dd><p>Raised when a <a class=3D"reference internal" href=3D"https://docs.p=
+ython.org/3/c-api/buffer.html#bufferobjects"><span class=3D"std std-ref">bu=
+ffer</span></a> related operation cannot be
+performed.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"LookupError">
+<em class=3D"property">exception </em><code class=3D"descname">LookupError<=
+/code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/exc=
+eptions.html#LookupError" title=3D"Permalink to this definition">=C2=B6</a>=
+</dt>
+<dd><p>The base class for the exceptions that are raised when a key or inde=
+x used on
+a mapping or sequence is invalid: <a class=3D"reference internal" href=3D"h=
+ttps://docs.python.org/3/library/exceptions.html#IndexError" title=3D"Index=
+Error"><code class=3D"xref py py-exc docutils literal"><span class=3D"pre">=
+IndexError</span></code></a>, <a class=3D"reference internal" href=3D"https=
+://docs.python.org/3/library/exceptions.html#KeyError" title=3D"KeyError"><=
+code class=3D"xref py py-exc docutils literal"><span class=3D"pre">KeyError=
+</span></code></a>.  This
+can be raised directly by <a class=3D"reference internal" href=3D"https://d=
+ocs.python.org/3/library/codecs.html#codecs.lookup" title=3D"codecs.lookup"=
+><code class=3D"xref py py-func docutils literal"><span class=3D"pre">codec=
+s.lookup()</span></code></a>.</p>
+</dd></dl>
+
+</div>
+<div class=3D"section" id=3D"concrete-exceptions">
+<h2>5.2. Concrete exceptions<a class=3D"headerlink" href=3D"https://docs.py=
+thon.org/3/library/exceptions.html#concrete-exceptions" title=3D"Permalink =
+to this headline">=C2=B6</a></h2>
+<p>The following exceptions are the exceptions that are usually raised.</p>
+<dl class=3D"exception">
+<dt id=3D"AssertionError">
+<em class=3D"property">exception </em><code class=3D"descname">AssertionErr=
+or</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/=
+exceptions.html#AssertionError" title=3D"Permalink to this definition">=C2=
+=B6</a></dt>
+<dd><p id=3D"index-2">Raised when an <a class=3D"reference internal" href=
+=3D"https://docs.python.org/3/reference/simple_stmts.html#assert"><code cla=
+ss=3D"xref std std-keyword docutils literal"><span class=3D"pre">assert</sp=
+an></code></a> statement fails.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"AttributeError">
+<em class=3D"property">exception </em><code class=3D"descname">AttributeErr=
+or</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/=
+exceptions.html#AttributeError" title=3D"Permalink to this definition">=C2=
+=B6</a></dt>
+<dd><p>Raised when an attribute reference (see <a class=3D"reference intern=
+al" href=3D"https://docs.python.org/3/reference/expressions.html#attribute-=
+references"><span class=3D"std std-ref">Attribute references</span></a>) or
+assignment fails.  (When an object does not support attribute references or
+attribute assignments at all, <a class=3D"reference internal" href=3D"https=
+://docs.python.org/3/library/exceptions.html#TypeError" title=3D"TypeError"=
+><code class=3D"xref py py-exc docutils literal"><span class=3D"pre">TypeEr=
+ror</span></code></a> is raised.)</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"EOFError">
+<em class=3D"property">exception </em><code class=3D"descname">EOFError</co=
+de><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/except=
+ions.html#EOFError" title=3D"Permalink to this definition">=C2=B6</a></dt>
+<dd><p>Raised when the <a class=3D"reference internal" href=3D"https://docs=
+.python.org/3/library/functions.html#input" title=3D"input"><code class=3D"=
+xref py py-func docutils literal"><span class=3D"pre">input()</span></code>=
+</a> function hits an end-of-file condition (EOF)
+without reading any data. (N.B.: the <code class=3D"xref py py-meth docutil=
+s literal"><span class=3D"pre">io.IOBase.read()</span></code> and
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/i=
+o.html#io.IOBase.readline" title=3D"io.IOBase.readline"><code class=3D"xref=
+ py py-meth docutils literal"><span class=3D"pre">io.IOBase.readline()</spa=
+n></code></a> methods return an empty string when they hit EOF.)</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"FloatingPointError">
+<em class=3D"property">exception </em><code class=3D"descname">FloatingPoin=
+tError</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/libr=
+ary/exceptions.html#FloatingPointError" title=3D"Permalink to this definiti=
+on">=C2=B6</a></dt>
+<dd><p>Raised when a floating point operation fails.  This exception is alw=
+ays defined,
+but can only be raised when Python is configured with the
+<code class=3D"docutils literal"><span class=3D"pre">--with-fpectl</span></=
+code> option, or the <code class=3D"xref py py-const docutils literal"><spa=
+n class=3D"pre">WANT_SIGFPE_HANDLER</span></code> symbol is
+defined in the <code class=3D"file docutils literal"><span class=3D"pre">py=
+config.h</span></code> file.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"GeneratorExit">
+<em class=3D"property">exception </em><code class=3D"descname">GeneratorExi=
+t</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/e=
+xceptions.html#GeneratorExit" title=3D"Permalink to this definition">=C2=B6=
+</a></dt>
+<dd><p>Raised when a <a class=3D"reference internal" href=3D"https://docs.p=
+ython.org/3/glossary.html#term-generator"><span class=3D"xref std std-term"=
+>generator</span></a> or <a class=3D"reference internal" href=3D"https://do=
+cs.python.org/3/glossary.html#term-coroutine"><span class=3D"xref std std-t=
+erm">coroutine</span></a> is closed;
+see <a class=3D"reference internal" href=3D"https://docs.python.org/3/refer=
+ence/expressions.html#generator.close" title=3D"generator.close"><code clas=
+s=3D"xref py py-meth docutils literal"><span class=3D"pre">generator.close(=
+)</span></code></a> and <a class=3D"reference internal" href=3D"https://doc=
+s.python.org/3/reference/datamodel.html#coroutine.close" title=3D"coroutine=
+.close"><code class=3D"xref py py-meth docutils literal"><span class=3D"pre=
+">coroutine.close()</span></code></a>.  It
+directly inherits from <a class=3D"reference internal" href=3D"https://docs=
+.python.org/3/library/exceptions.html#BaseException" title=3D"BaseException=
+"><code class=3D"xref py py-exc docutils literal"><span class=3D"pre">BaseE=
+xception</span></code></a> instead of <a class=3D"reference internal" href=
+=3D"https://docs.python.org/3/library/exceptions.html#Exception" title=3D"E=
+xception"><code class=3D"xref py py-exc docutils literal"><span class=3D"pr=
+e">Exception</span></code></a> since
+it is technically not an error.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"ImportError">
+<em class=3D"property">exception </em><code class=3D"descname">ImportError<=
+/code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/exc=
+eptions.html#ImportError" title=3D"Permalink to this definition">=C2=B6</a>=
+</dt>
+<dd><p>Raised when the <a class=3D"reference internal" href=3D"https://docs=
+.python.org/3/reference/simple_stmts.html#import"><code class=3D"xref std s=
+td-keyword docutils literal"><span class=3D"pre">import</span></code></a> s=
+tatement has troubles trying to
+load a module.  Also raised when the =E2=80=9Cfrom list=E2=80=9D in <code c=
+lass=3D"docutils literal"><span class=3D"pre">from</span> <span class=3D"pr=
+e">...</span> <span class=3D"pre">import</span></code>
+has a name that cannot be found.</p>
+<p>The <code class=3D"xref py py-attr docutils literal"><span class=3D"pre"=
+>name</span></code> and <code class=3D"xref py py-attr docutils literal"><s=
+pan class=3D"pre">path</span></code> attributes can be set using keyword-on=
+ly
+arguments to the constructor. When set they represent the name of the modul=
+e
+that was attempted to be imported and the path to any file which triggered
+the exception, respectively.</p>
+<div class=3D"versionchanged">
+<p><span class=3D"versionmodified">Changed in version 3.3: </span>Added the=
+ <code class=3D"xref py py-attr docutils literal"><span class=3D"pre">name<=
+/span></code> and <code class=3D"xref py py-attr docutils literal"><span cl=
+ass=3D"pre">path</span></code> attributes.</p>
+</div>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"ModuleNotFoundError">
+<em class=3D"property">exception </em><code class=3D"descname">ModuleNotFou=
+ndError</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/lib=
+rary/exceptions.html#ModuleNotFoundError" title=3D"Permalink to this defini=
+tion">=C2=B6</a></dt>
+<dd><p>A subclass of <a class=3D"reference internal" href=3D"https://docs.p=
+ython.org/3/library/exceptions.html#ImportError" title=3D"ImportError"><cod=
+e class=3D"xref py py-exc docutils literal"><span class=3D"pre">ImportError=
+</span></code></a> which is raised by <a class=3D"reference internal" href=
+=3D"https://docs.python.org/3/reference/simple_stmts.html#import"><code cla=
+ss=3D"xref std std-keyword docutils literal"><span class=3D"pre">import</sp=
+an></code></a>
+when a module could not be located.  It is also raised when <code class=3D"=
+docutils literal"><span class=3D"pre">None</span></code>
+is found in <a class=3D"reference internal" href=3D"https://docs.python.org=
+/3/library/sys.html#sys.modules" title=3D"sys.modules"><code class=3D"xref =
+py py-data docutils literal"><span class=3D"pre">sys.modules</span></code><=
+/a>.</p>
+<div class=3D"versionadded">
+<p><span class=3D"versionmodified">New in version 3.6.</span></p>
+</div>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"IndexError">
+<em class=3D"property">exception </em><code class=3D"descname">IndexError</=
+code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/exce=
+ptions.html#IndexError" title=3D"Permalink to this definition">=C2=B6</a></=
+dt>
+<dd><p>Raised when a sequence subscript is out of range.  (Slice indices ar=
+e
+silently truncated to fall in the allowed range; if an index is not an
+integer, <a class=3D"reference internal" href=3D"https://docs.python.org/3/=
+library/exceptions.html#TypeError" title=3D"TypeError"><code class=3D"xref =
+py py-exc docutils literal"><span class=3D"pre">TypeError</span></code></a>=
+ is raised.)</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"KeyError">
+<em class=3D"property">exception </em><code class=3D"descname">KeyError</co=
+de><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/except=
+ions.html#KeyError" title=3D"Permalink to this definition">=C2=B6</a></dt>
+<dd><p>Raised when a mapping (dictionary) key is not found in the set of ex=
+isting keys.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"KeyboardInterrupt">
+<em class=3D"property">exception </em><code class=3D"descname">KeyboardInte=
+rrupt</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/libra=
+ry/exceptions.html#KeyboardInterrupt" title=3D"Permalink to this definition=
+">=C2=B6</a></dt>
+<dd><p>Raised when the user hits the interrupt key (normally <code class=3D=
+"kbd docutils literal"><span class=3D"pre">Control-C</span></code> or
+<code class=3D"kbd docutils literal"><span class=3D"pre">Delete</span></cod=
+e>).  During execution, a check for interrupts is made
+regularly. The exception inherits from <a class=3D"reference internal" href=
+=3D"https://docs.python.org/3/library/exceptions.html#BaseException" title=
+=3D"BaseException"><code class=3D"xref py py-exc docutils literal"><span cl=
+ass=3D"pre">BaseException</span></code></a> so as to not be
+accidentally caught by code that catches <a class=3D"reference internal" hr=
+ef=3D"https://docs.python.org/3/library/exceptions.html#Exception" title=3D=
+"Exception"><code class=3D"xref py py-exc docutils literal"><span class=3D"=
+pre">Exception</span></code></a> and thus prevent
+the interpreter from exiting.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"MemoryError">
+<em class=3D"property">exception </em><code class=3D"descname">MemoryError<=
+/code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/exc=
+eptions.html#MemoryError" title=3D"Permalink to this definition">=C2=B6</a>=
+</dt>
+<dd><p>Raised when an operation runs out of memory but the situation may st=
+ill be
+rescued (by deleting some objects).  The associated value is a string indic=
+ating
+what kind of (internal) operation ran out of memory. Note that because of t=
+he
+underlying memory management architecture (C=E2=80=99s <code class=3D"xref =
+c c-func docutils literal"><span class=3D"pre">malloc()</span></code> funct=
+ion), the
+interpreter may not always be able to completely recover from this situatio=
+n; it
+nevertheless raises an exception so that a stack traceback can be printed, =
+in
+case a run-away program was the cause.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"NameError">
+<em class=3D"property">exception </em><code class=3D"descname">NameError</c=
+ode><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/excep=
+tions.html#NameError" title=3D"Permalink to this definition">=C2=B6</a></dt=
+>
+<dd><p>Raised when a local or global name is not found.  This applies only =
+to
+unqualified names.  The associated value is an error message that includes =
+the
+name that could not be found.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"NotImplementedError">
+<em class=3D"property">exception </em><code class=3D"descname">NotImplement=
+edError</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/lib=
+rary/exceptions.html#NotImplementedError" title=3D"Permalink to this defini=
+tion">=C2=B6</a></dt>
+<dd><p>This exception is derived from <a class=3D"reference internal" href=
+=3D"https://docs.python.org/3/library/exceptions.html#RuntimeError" title=
+=3D"RuntimeError"><code class=3D"xref py py-exc docutils literal"><span cla=
+ss=3D"pre">RuntimeError</span></code></a>.  In user defined base
+classes, abstract methods should raise this exception when they require
+derived classes to override the method, or while the class is being
+developed to indicate that the real implementation still needs to be added.=
+</p>
+<div class=3D"admonition note">
+<p class=3D"first admonition-title">Note</p>
+<p class=3D"last">It should not be used to indicate that an operator or met=
+hod is not
+meant to be supported at all =E2=80=93 in that case either leave the operat=
+or /
+method undefined or, if a subclass, set it to <a class=3D"reference interna=
+l" href=3D"https://docs.python.org/3/library/constants.html#None" title=3D"=
+None"><code class=3D"xref py py-data docutils literal"><span class=3D"pre">=
+None</span></code></a>.</p>
+</div>
+<div class=3D"admonition note">
+<p class=3D"first admonition-title">Note</p>
+<p class=3D"last"><code class=3D"docutils literal"><span class=3D"pre">NotI=
+mplementedError</span></code> and <code class=3D"docutils literal"><span cl=
+ass=3D"pre">NotImplemented</span></code> are not interchangeable,
+even though they have similar names and purposes.  See
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/c=
+onstants.html#NotImplemented" title=3D"NotImplemented"><code class=3D"xref =
+py py-data docutils literal"><span class=3D"pre">NotImplemented</span></cod=
+e></a> for details on when to use it.</p>
+</div>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"OSError">
+<em class=3D"property">exception </em><code class=3D"descname">OSError</cod=
+e><span class=3D"sig-paren">(</span><span class=3D"optional">[</span><em>ar=
+g</em><span class=3D"optional">]</span><span class=3D"sig-paren">)</span><a=
+ class=3D"headerlink" href=3D"https://docs.python.org/3/library/exceptions.=
+html#OSError" title=3D"Permalink to this definition">=C2=B6</a></dt>
+<dt>
+<em class=3D"property">exception </em><code class=3D"descname">OSError</cod=
+e><span class=3D"sig-paren">(</span><em>errno</em>, <em>strerror</em><span =
+class=3D"optional">[</span>, <em>filename</em><span class=3D"optional">[</s=
+pan>, <em>winerror</em><span class=3D"optional">[</span>, <em>filename2</em=
+><span class=3D"optional">]</span><span class=3D"optional">]</span><span cl=
+ass=3D"optional">]</span><span class=3D"sig-paren">)</span></dt>
+<dd><p id=3D"index-3">This exception is raised when a system function retur=
+ns a system-related
+error, including I/O failures such as =E2=80=9Cfile not found=E2=80=9D or =
+=E2=80=9Cdisk full=E2=80=9D
+(not for illegal argument types or other incidental errors).</p>
+<p>The second form of the constructor sets the corresponding attributes,
+described below.  The attributes default to <a class=3D"reference internal"=
+ href=3D"https://docs.python.org/3/library/constants.html#None" title=3D"No=
+ne"><code class=3D"xref py py-const docutils literal"><span class=3D"pre">N=
+one</span></code></a> if not
+specified.  For backwards compatibility, if three arguments are passed,
+the <a class=3D"reference internal" href=3D"https://docs.python.org/3/libra=
+ry/exceptions.html#BaseException.args" title=3D"BaseException.args"><code c=
+lass=3D"xref py py-attr docutils literal"><span class=3D"pre">args</span></=
+code></a> attribute contains only a 2-tuple
+of the first two constructor arguments.</p>
+<p>The constructor often actually returns a subclass of <a class=3D"referen=
+ce internal" href=3D"https://docs.python.org/3/library/exceptions.html#OSEr=
+ror" title=3D"OSError"><code class=3D"xref py py-exc docutils literal"><spa=
+n class=3D"pre">OSError</span></code></a>, as
+described in <a class=3D"reference internal" href=3D"https://docs.python.or=
+g/3/library/exceptions.html#os-exceptions">OS exceptions</a> below.  The pa=
+rticular subclass depends on
+the final <a class=3D"reference internal" href=3D"https://docs.python.org/3=
+/library/exceptions.html#OSError.errno" title=3D"OSError.errno"><code class=
+=3D"xref py py-attr docutils literal"><span class=3D"pre">errno</span></cod=
+e></a> value.  This behaviour only occurs when
+constructing <a class=3D"reference internal" href=3D"https://docs.python.or=
+g/3/library/exceptions.html#OSError" title=3D"OSError"><code class=3D"xref =
+py py-exc docutils literal"><span class=3D"pre">OSError</span></code></a> d=
+irectly or via an alias, and is not
+inherited when subclassing.</p>
+<dl class=3D"attribute">
+<dt id=3D"OSError.errno">
+<code class=3D"descname">errno</code><a class=3D"headerlink" href=3D"https:=
+//docs.python.org/3/library/exceptions.html#OSError.errno" title=3D"Permali=
+nk to this definition">=C2=B6</a></dt>
+<dd><p>A numeric error code from the C variable <code class=3D"xref c c-dat=
+a docutils literal"><span class=3D"pre">errno</span></code>.</p>
+</dd></dl>
+
+<dl class=3D"attribute">
+<dt id=3D"OSError.winerror">
+<code class=3D"descname">winerror</code><a class=3D"headerlink" href=3D"htt=
+ps://docs.python.org/3/library/exceptions.html#OSError.winerror" title=3D"P=
+ermalink to this definition">=C2=B6</a></dt>
+<dd><p>Under Windows, this gives you the native
+Windows error code.  The <a class=3D"reference internal" href=3D"https://do=
+cs.python.org/3/library/exceptions.html#OSError.errno" title=3D"OSError.err=
+no"><code class=3D"xref py py-attr docutils literal"><span class=3D"pre">er=
+rno</span></code></a> attribute is then an approximate
+translation, in <yobject id=3D"c789d41bcf40c406eb39a5b869a4eae288330oCgdydX=
+c4OTI0GAIGbcJJ" data-yobjectid=3D"0oCgdydXc4OTI0GAIGbcJJ" data-yobjectbegin=
+=3D"8833" data-yobjectlength=3D"5" data-hashcode=3D"c789d41bcf40c406eb39a5b=
+869a4eae2" data-reqid=3D"219D0175-01C0-43A2-9748-4143817960D4/cd85a52987f9e=
+0a11f054ce30a4152c2">POSIX</yobject> terms, of that native error code.</p>
+<p>Under Windows, if the <em>winerror</em> constructor argument is an integ=
+er,
+the <a class=3D"reference internal" href=3D"https://docs.python.org/3/libra=
+ry/exceptions.html#OSError.errno" title=3D"OSError.errno"><code class=3D"xr=
+ef py py-attr docutils literal"><span class=3D"pre">errno</span></code></a>=
+ attribute is determined from the Windows error code,
+and the <em>errno</em> argument is ignored.  On other platforms, the
+<em>winerror</em> argument is ignored, and the <a class=3D"reference intern=
+al" href=3D"https://docs.python.org/3/library/exceptions.html#OSError.winer=
+ror" title=3D"OSError.winerror"><code class=3D"xref py py-attr docutils lit=
+eral"><span class=3D"pre">winerror</span></code></a> attribute
+does not exist.</p>
+</dd></dl>
+
+<dl class=3D"attribute">
+<dt id=3D"OSError.strerror">
+<code class=3D"descname">strerror</code><a class=3D"headerlink" href=3D"htt=
+ps://docs.python.org/3/library/exceptions.html#OSError.strerror" title=3D"P=
+ermalink to this definition">=C2=B6</a></dt>
+<dd><p>The corresponding error message, as provided by
+the operating system.  It is formatted by the C
+functions <code class=3D"xref c c-func docutils literal"><span class=3D"pre=
+">perror()</span></code> under POSIX, and <code class=3D"xref c c-func docu=
+tils literal"><span class=3D"pre">FormatMessage()</span></code>
+under Windows.</p>
+</dd></dl>
+
+<dl class=3D"attribute">
+<dt id=3D"OSError.filename">
+<code class=3D"descname">filename</code><a class=3D"headerlink" href=3D"htt=
+ps://docs.python.org/3/library/exceptions.html#OSError.filename" title=3D"P=
+ermalink to this definition">=C2=B6</a></dt>
+<dt id=3D"OSError.filename2">
+<code class=3D"descname">filename2</code><a class=3D"headerlink" href=3D"ht=
+tps://docs.python.org/3/library/exceptions.html#OSError.filename2" title=3D=
+"Permalink to this definition">=C2=B6</a></dt>
+<dd><p>For exceptions that involve a file system path (such as <a class=3D"=
+reference internal" href=3D"https://docs.python.org/3/library/functions.htm=
+l#open" title=3D"open"><code class=3D"xref py py-func docutils literal"><sp=
+an class=3D"pre">open()</span></code></a> or
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/o=
+s.html#os.unlink" title=3D"os.unlink"><code class=3D"xref py py-func docuti=
+ls literal"><span class=3D"pre">os.unlink()</span></code></a>), <a class=3D=
+"reference internal" href=3D"https://docs.python.org/3/library/exceptions.h=
+tml#OSError.filename" title=3D"OSError.filename"><code class=3D"xref py py-=
+attr docutils literal"><span class=3D"pre">filename</span></code></a> is th=
+e file name passed to the function.
+For functions that involve two file system paths (such as
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/o=
+s.html#os.rename" title=3D"os.rename"><code class=3D"xref py py-func docuti=
+ls literal"><span class=3D"pre">os.rename()</span></code></a>), <a class=3D=
+"reference internal" href=3D"https://docs.python.org/3/library/exceptions.h=
+tml#OSError.filename2" title=3D"OSError.filename2"><code class=3D"xref py p=
+y-attr docutils literal"><span class=3D"pre">filename2</span></code></a> co=
+rresponds to the second
+file name passed to the function.</p>
+</dd></dl>
+
+<div class=3D"versionchanged">
+<p><span class=3D"versionmodified">Changed in version 3.3: </span><a class=
+=3D"reference internal" href=3D"https://docs.python.org/3/library/exception=
+s.html#EnvironmentError" title=3D"EnvironmentError"><code class=3D"xref py =
+py-exc docutils literal"><span class=3D"pre">EnvironmentError</span></code>=
+</a>, <a class=3D"reference internal" href=3D"https://docs.python.org/3/lib=
+rary/exceptions.html#IOError" title=3D"IOError"><code class=3D"xref py py-e=
+xc docutils literal"><span class=3D"pre">IOError</span></code></a>, <a clas=
+s=3D"reference internal" href=3D"https://docs.python.org/3/library/exceptio=
+ns.html#WindowsError" title=3D"WindowsError"><code class=3D"xref py py-exc =
+docutils literal"><span class=3D"pre">WindowsError</span></code></a>,
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/s=
+ocket.html#socket.error" title=3D"socket.error"><code class=3D"xref py py-e=
+xc docutils literal"><span class=3D"pre">socket.error</span></code></a>, <a=
+ class=3D"reference internal" href=3D"https://docs.python.org/3/library/sel=
+ect.html#select.error" title=3D"select.error"><code class=3D"xref py py-exc=
+ docutils literal"><span class=3D"pre">select.error</span></code></a> and
+<code class=3D"xref py py-exc docutils literal"><span class=3D"pre">mmap.er=
+ror</span></code> have been merged into <a class=3D"reference internal" hre=
+f=3D"https://docs.python.org/3/library/exceptions.html#OSError" title=3D"OS=
+Error"><code class=3D"xref py py-exc docutils literal"><span class=3D"pre">=
+OSError</span></code></a>, and the
+constructor may return a subclass.</p>
+</div>
+<div class=3D"versionchanged">
+<p><span class=3D"versionmodified">Changed in version 3.4: </span>The <a cl=
+ass=3D"reference internal" href=3D"https://docs.python.org/3/library/except=
+ions.html#OSError.filename" title=3D"OSError.filename"><code class=3D"xref =
+py py-attr docutils literal"><span class=3D"pre">filename</span></code></a>=
+ attribute is now the original file name passed to
+the function, instead of the name encoded to or decoded from the
+filesystem encoding.  Also, the <em>filename2</em> constructor argument and
+attribute was added.</p>
+</div>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"OverflowError">
+<em class=3D"property">exception </em><code class=3D"descname">OverflowErro=
+r</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/e=
+xceptions.html#OverflowError" title=3D"Permalink to this definition">=C2=B6=
+</a></dt>
+<dd><p>Raised when the result of an arithmetic operation is too large to be
+represented.  This cannot occur for integers (which would rather raise
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/e=
+xceptions.html#MemoryError" title=3D"MemoryError"><code class=3D"xref py py=
+-exc docutils literal"><span class=3D"pre">MemoryError</span></code></a> th=
+an give up).  However, for historical reasons,
+OverflowError is sometimes raised for integers that are outside a required
+range.   Because of the lack of standardization of floating point exception
+handling in C, most floating point operations are not checked.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"RecursionError">
+<em class=3D"property">exception </em><code class=3D"descname">RecursionErr=
+or</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/=
+exceptions.html#RecursionError" title=3D"Permalink to this definition">=C2=
+=B6</a></dt>
+<dd><p>This exception is derived from <a class=3D"reference internal" href=
+=3D"https://docs.python.org/3/library/exceptions.html#RuntimeError" title=
+=3D"RuntimeError"><code class=3D"xref py py-exc docutils literal"><span cla=
+ss=3D"pre">RuntimeError</span></code></a>.  It is raised when the
+interpreter detects that the maximum recursion depth (see
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/s=
+ys.html#sys.getrecursionlimit" title=3D"sys.getrecursionlimit"><code class=
+=3D"xref py py-func docutils literal"><span class=3D"pre">sys.getrecursionl=
+imit()</span></code></a>) is exceeded.</p>
+<div class=3D"versionadded">
+<p><span class=3D"versionmodified">New in version 3.5: </span>Previously, a=
+ plain <a class=3D"reference internal" href=3D"https://docs.python.org/3/li=
+brary/exceptions.html#RuntimeError" title=3D"RuntimeError"><code class=3D"x=
+ref py py-exc docutils literal"><span class=3D"pre">RuntimeError</span></co=
+de></a> was raised.</p>
+</div>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"ReferenceError">
+<em class=3D"property">exception </em><code class=3D"descname">ReferenceErr=
+or</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/=
+exceptions.html#ReferenceError" title=3D"Permalink to this definition">=C2=
+=B6</a></dt>
+<dd><p>This exception is raised when a weak reference proxy, created by the
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/w=
+eakref.html#weakref.proxy" title=3D"weakref.proxy"><code class=3D"xref py p=
+y-func docutils literal"><span class=3D"pre">weakref.proxy()</span></code><=
+/a> function, is used to access an attribute of the referent
+after it has been garbage collected. For more information on weak reference=
+s,
+see the <a class=3D"reference internal" href=3D"https://docs.python.org/3/l=
+ibrary/weakref.html#module-weakref" title=3D"weakref: Support for weak refe=
+rences and weak dictionaries."><code class=3D"xref py py-mod docutils liter=
+al"><span class=3D"pre">weakref</span></code></a> module.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"RuntimeError">
+<em class=3D"property">exception </em><code class=3D"descname">RuntimeError=
+</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/ex=
+ceptions.html#RuntimeError" title=3D"Permalink to this definition">=C2=B6</=
+a></dt>
+<dd><p>Raised when an error is detected that doesn=E2=80=99t fall in any of=
+ the other
+categories.  The associated value is a string indicating what precisely wen=
+t
+wrong.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"StopIteration">
+<em class=3D"property">exception </em><code class=3D"descname">StopIteratio=
+n</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/e=
+xceptions.html#StopIteration" title=3D"Permalink to this definition">=C2=B6=
+</a></dt>
+<dd><p>Raised by built-in function <a class=3D"reference internal" href=3D"=
+https://docs.python.org/3/library/functions.html#next" title=3D"next"><code=
+ class=3D"xref py py-func docutils literal"><span class=3D"pre">next()</spa=
+n></code></a> and an <a class=3D"reference internal" href=3D"https://docs.p=
+ython.org/3/glossary.html#term-iterator"><span class=3D"xref std std-term">=
+iterator</span></a>=E2=80=99s
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/s=
+tdtypes.html#iterator.__next__" title=3D"iterator.__next__"><code class=3D"=
+xref py py-meth docutils literal"><span class=3D"pre">__next__()</span></co=
+de></a> method to signal that there are no further
+items produced by the iterator.</p>
+<p>The exception object has a single attribute <code class=3D"xref py py-at=
+tr docutils literal"><span class=3D"pre">value</span></code>, which is
+given as an argument when constructing the exception, and defaults
+to <a class=3D"reference internal" href=3D"https://docs.python.org/3/librar=
+y/constants.html#None" title=3D"None"><code class=3D"xref py py-const docut=
+ils literal"><span class=3D"pre">None</span></code></a>.</p>
+<p>When a <a class=3D"reference internal" href=3D"https://docs.python.org/3=
+/glossary.html#term-generator"><span class=3D"xref std std-term">generator<=
+/span></a> or <a class=3D"reference internal" href=3D"https://docs.python.o=
+rg/3/glossary.html#term-coroutine"><span class=3D"xref std std-term">corout=
+ine</span></a> function
+returns, a new <a class=3D"reference internal" href=3D"https://docs.python.=
+org/3/library/exceptions.html#StopIteration" title=3D"StopIteration"><code =
+class=3D"xref py py-exc docutils literal"><span class=3D"pre">StopIteration=
+</span></code></a> instance is
+raised, and the value returned by the function is used as the
+<code class=3D"xref py py-attr docutils literal"><span class=3D"pre">value<=
+/span></code> parameter to the constructor of the exception.</p>
+<p>If a generator function defined in the presence of a <code class=3D"docu=
+tils literal"><span class=3D"pre">from</span> <span class=3D"pre">__future_=
+_</span>
+<span class=3D"pre">import</span> <span class=3D"pre">generator_stop</span>=
+</code> directive raises <a class=3D"reference internal" href=3D"https://do=
+cs.python.org/3/library/exceptions.html#StopIteration" title=3D"StopIterati=
+on"><code class=3D"xref py py-exc docutils literal"><span class=3D"pre">Sto=
+pIteration</span></code></a>, it will be
+converted into a <a class=3D"reference internal" href=3D"https://docs.pytho=
+n.org/3/library/exceptions.html#RuntimeError" title=3D"RuntimeError"><code =
+class=3D"xref py py-exc docutils literal"><span class=3D"pre">RuntimeError<=
+/span></code></a> (retaining the <a class=3D"reference internal" href=3D"ht=
+tps://docs.python.org/3/library/exceptions.html#StopIteration" title=3D"Sto=
+pIteration"><code class=3D"xref py py-exc docutils literal"><span class=3D"=
+pre">StopIteration</span></code></a>
+as the new exception=E2=80=99s cause).</p>
+<div class=3D"versionchanged">
+<p><span class=3D"versionmodified">Changed in version 3.3: </span>Added <co=
+de class=3D"docutils literal"><span class=3D"pre">value</span></code> attri=
+bute and the ability for generator functions to
+use it to return a value.</p>
+</div>
+<div class=3D"versionchanged">
+<p><span class=3D"versionmodified">Changed in version 3.5: </span>Introduce=
+d the RuntimeError transformation.</p>
+</div>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"StopAsyncIteration">
+<em class=3D"property">exception </em><code class=3D"descname">StopAsyncIte=
+ration</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/libr=
+ary/exceptions.html#StopAsyncIteration" title=3D"Permalink to this definiti=
+on">=C2=B6</a></dt>
+<dd><p>Must be raised by <a class=3D"reference internal" href=3D"https://do=
+cs.python.org/3/reference/datamodel.html#object.__anext__" title=3D"object.=
+__anext__"><code class=3D"xref py py-meth docutils literal"><span class=3D"=
+pre">__anext__()</span></code></a> method of an
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/glossary.=
+html#term-asynchronous-iterator"><span class=3D"xref std std-term">asynchro=
+nous iterator</span></a> object to stop the iteration.</p>
+<div class=3D"versionadded">
+<p><span class=3D"versionmodified">New in version 3.5.</span></p>
+</div>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"SyntaxError">
+<em class=3D"property">exception </em><code class=3D"descname">SyntaxError<=
+/code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/exc=
+eptions.html#SyntaxError" title=3D"Permalink to this definition">=C2=B6</a>=
+</dt>
+<dd><p>Raised when the parser encounters a syntax error.  This may occur in=
+ an
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/reference=
+/simple_stmts.html#import"><code class=3D"xref std std-keyword docutils lit=
+eral"><span class=3D"pre">import</span></code></a> statement, in a call to =
+the built-in functions <a class=3D"reference internal" href=3D"https://docs=
+.python.org/3/library/functions.html#exec" title=3D"exec"><code class=3D"xr=
+ef py py-func docutils literal"><span class=3D"pre">exec()</span></code></a=
+>
+or <a class=3D"reference internal" href=3D"https://docs.python.org/3/librar=
+y/functions.html#eval" title=3D"eval"><code class=3D"xref py py-func docuti=
+ls literal"><span class=3D"pre">eval()</span></code></a>, or when reading t=
+he initial script or standard input
+(also interactively).</p>
+<p>Instances of this class have attributes <code class=3D"xref py py-attr d=
+ocutils literal"><span class=3D"pre">filename</span></code>, <code class=3D=
+"xref py py-attr docutils literal"><span class=3D"pre">lineno</span></code>=
+,
+<code class=3D"xref py py-attr docutils literal"><span class=3D"pre">offset=
+</span></code> and <code class=3D"xref py py-attr docutils literal"><span c=
+lass=3D"pre">text</span></code> for easier access to the details.  <a class=
+=3D"reference internal" href=3D"https://docs.python.org/3/library/stdtypes.=
+html#str" title=3D"str"><code class=3D"xref py py-func docutils literal"><s=
+pan class=3D"pre">str()</span></code></a>
+of the exception instance returns only the message.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"IndentationError">
+<em class=3D"property">exception </em><code class=3D"descname">IndentationE=
+rror</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/librar=
+y/exceptions.html#IndentationError" title=3D"Permalink to this definition">=
+=C2=B6</a></dt>
+<dd><p>Base class for syntax errors related to incorrect indentation.  This=
+ is a
+subclass of <a class=3D"reference internal" href=3D"https://docs.python.org=
+/3/library/exceptions.html#SyntaxError" title=3D"SyntaxError"><code class=
+=3D"xref py py-exc docutils literal"><span class=3D"pre">SyntaxError</span>=
+</code></a>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"TabError">
+<em class=3D"property">exception </em><code class=3D"descname">TabError</co=
+de><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/except=
+ions.html#TabError" title=3D"Permalink to this definition">=C2=B6</a></dt>
+<dd><p>Raised when indentation contains an inconsistent use of tabs and spa=
+ces.
+This is a subclass of <a class=3D"reference internal" href=3D"https://docs.=
+python.org/3/library/exceptions.html#IndentationError" title=3D"Indentation=
+Error"><code class=3D"xref py py-exc docutils literal"><span class=3D"pre">=
+IndentationError</span></code></a>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"SystemError">
+<em class=3D"property">exception </em><code class=3D"descname">SystemError<=
+/code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/exc=
+eptions.html#SystemError" title=3D"Permalink to this definition">=C2=B6</a>=
+</dt>
+<dd><p>Raised when the interpreter finds an internal error, but the situati=
+on does not
+look so serious to cause it to abandon all hope. The associated value is a
+string indicating what went wrong (in low-level terms).</p>
+<p>You should report this to the author or maintainer of your Python interp=
+reter.
+Be sure to report the version of the Python interpreter (<code class=3D"doc=
+utils literal"><span class=3D"pre">sys.version</span></code>; it is
+also printed at the start of an interactive Python session), the exact erro=
+r
+message (the exception=E2=80=99s associated value) and if possible the sour=
+ce of the
+program that triggered the error.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"SystemExit">
+<em class=3D"property">exception </em><code class=3D"descname">SystemExit</=
+code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/exce=
+ptions.html#SystemExit" title=3D"Permalink to this definition">=C2=B6</a></=
+dt>
+<dd><p>This exception is raised by the <a class=3D"reference internal" href=
+=3D"https://docs.python.org/3/library/sys.html#sys.exit" title=3D"sys.exit"=
+><code class=3D"xref py py-func docutils literal"><span class=3D"pre">sys.e=
+xit()</span></code></a> function.  It inherits from
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/e=
+xceptions.html#BaseException" title=3D"BaseException"><code class=3D"xref p=
+y py-exc docutils literal"><span class=3D"pre">BaseException</span></code><=
+/a> instead of <a class=3D"reference internal" href=3D"https://docs.python.=
+org/3/library/exceptions.html#Exception" title=3D"Exception"><code class=3D=
+"xref py py-exc docutils literal"><span class=3D"pre">Exception</span></cod=
+e></a> so that it is not accidentally
+caught by code that catches <a class=3D"reference internal" href=3D"https:/=
+/docs.python.org/3/library/exceptions.html#Exception" title=3D"Exception"><=
+code class=3D"xref py py-exc docutils literal"><span class=3D"pre">Exceptio=
+n</span></code></a>.  This allows the exception to
+properly propagate up and cause the interpreter to exit.  When it is not
+handled, the Python interpreter exits; no stack traceback is printed.  The
+constructor accepts the same optional argument passed to <a class=3D"refere=
+nce internal" href=3D"https://docs.python.org/3/library/sys.html#sys.exit" =
+title=3D"sys.exit"><code class=3D"xref py py-func docutils literal"><span c=
+lass=3D"pre">sys.exit()</span></code></a>.
+If the value is an integer, it specifies the system exit status (passed to
+C=E2=80=99s <code class=3D"xref c c-func docutils literal"><span class=3D"p=
+re">exit()</span></code> function); if it is <code class=3D"docutils litera=
+l"><span class=3D"pre">None</span></code>, the exit status is zero; if
+it has another type (such as a string), the object=E2=80=99s value is print=
+ed and
+the exit status is one.</p>
+<p>A call to <a class=3D"reference internal" href=3D"https://docs.python.or=
+g/3/library/sys.html#sys.exit" title=3D"sys.exit"><code class=3D"xref py py=
+-func docutils literal"><span class=3D"pre">sys.exit()</span></code></a> is=
+ translated into an exception so that clean-up
+handlers (<a class=3D"reference internal" href=3D"https://docs.python.org/3=
+/reference/compound_stmts.html#finally"><code class=3D"xref std std-keyword=
+ docutils literal"><span class=3D"pre">finally</span></code></a> clauses of=
+ <a class=3D"reference internal" href=3D"https://docs.python.org/3/referenc=
+e/compound_stmts.html#try"><code class=3D"xref std std-keyword docutils lit=
+eral"><span class=3D"pre">try</span></code></a> statements) can be
+executed, and so that a debugger can execute a script without running the r=
+isk
+of losing control.  The <a class=3D"reference internal" href=3D"https://doc=
+s.python.org/3/library/os.html#os._exit" title=3D"os._exit"><code class=3D"=
+xref py py-func docutils literal"><span class=3D"pre">os._exit()</span></co=
+de></a> function can be used if it is
+absolutely positively necessary to exit immediately (for example, in the ch=
+ild
+process after a call to <a class=3D"reference internal" href=3D"https://doc=
+s.python.org/3/library/os.html#os.fork" title=3D"os.fork"><code class=3D"xr=
+ef py py-func docutils literal"><span class=3D"pre">os.fork()</span></code>=
+</a>).</p>
+<dl class=3D"attribute">
+<dt id=3D"SystemExit.code">
+<code class=3D"descname">code</code><a class=3D"headerlink" href=3D"https:/=
+/docs.python.org/3/library/exceptions.html#SystemExit.code" title=3D"Permal=
+ink to this definition">=C2=B6</a></dt>
+<dd><p>The exit status or error message that is passed to the constructor.
+(Defaults to <code class=3D"docutils literal"><span class=3D"pre">None</spa=
+n></code>.)</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"TypeError">
+<em class=3D"property">exception </em><code class=3D"descname">TypeError</c=
+ode><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/excep=
+tions.html#TypeError" title=3D"Permalink to this definition">=C2=B6</a></dt=
+>
+<dd><p>Raised when an operation or function is applied to an object of inap=
+propriate
+type.  The associated value is a string giving details about the type misma=
+tch.</p>
+<p>This exception may be raised by user code to indicate that an attempted
+operation on an object is not supported, and is not meant to be. If an obje=
+ct
+is meant to support a given operation but has not yet provided an
+implementation, <a class=3D"reference internal" href=3D"https://docs.python=
+.org/3/library/exceptions.html#NotImplementedError" title=3D"NotImplemented=
+Error"><code class=3D"xref py py-exc docutils literal"><span class=3D"pre">=
+NotImplementedError</span></code></a> is the proper exception to raise.</p>
+<p>Passing arguments of the wrong type (e.g. passing a <a class=3D"referenc=
+e internal" href=3D"https://docs.python.org/3/library/stdtypes.html#list" t=
+itle=3D"list"><code class=3D"xref py py-class docutils literal"><span class=
+=3D"pre">list</span></code></a> when an
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/f=
+unctions.html#int" title=3D"int"><code class=3D"xref py py-class docutils l=
+iteral"><span class=3D"pre">int</span></code></a> is expected) should resul=
+t in a <a class=3D"reference internal" href=3D"https://docs.python.org/3/li=
+brary/exceptions.html#TypeError" title=3D"TypeError"><code class=3D"xref py=
+ py-exc docutils literal"><span class=3D"pre">TypeError</span></code></a>, =
+but passing
+arguments with the wrong value (e.g. a number outside expected boundaries)
+should result in a <a class=3D"reference internal" href=3D"https://docs.pyt=
+hon.org/3/library/exceptions.html#ValueError" title=3D"ValueError"><code cl=
+ass=3D"xref py py-exc docutils literal"><span class=3D"pre">ValueError</spa=
+n></code></a>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"UnboundLocalError">
+<em class=3D"property">exception </em><code class=3D"descname">UnboundLocal=
+Error</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/libra=
+ry/exceptions.html#UnboundLocalError" title=3D"Permalink to this definition=
+">=C2=B6</a></dt>
+<dd><p>Raised when a reference is made to a local variable in a function or=
+ method, but
+no value has been bound to that variable.  This is a subclass of
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/e=
+xceptions.html#NameError" title=3D"NameError"><code class=3D"xref py py-exc=
+ docutils literal"><span class=3D"pre">NameError</span></code></a>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"UnicodeError">
+<em class=3D"property">exception </em><code class=3D"descname">UnicodeError=
+</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/ex=
+ceptions.html#UnicodeError" title=3D"Permalink to this definition">=C2=B6</=
+a></dt>
+<dd><p>Raised when a Unicode-related encoding or decoding error occurs.  It=
+ is a
+subclass of <a class=3D"reference internal" href=3D"https://docs.python.org=
+/3/library/exceptions.html#ValueError" title=3D"ValueError"><code class=3D"=
+xref py py-exc docutils literal"><span class=3D"pre">ValueError</span></cod=
+e></a>.</p>
+<p><a class=3D"reference internal" href=3D"https://docs.python.org/3/librar=
+y/exceptions.html#UnicodeError" title=3D"UnicodeError"><code class=3D"xref =
+py py-exc docutils literal"><span class=3D"pre">UnicodeError</span></code><=
+/a> has attributes that describe the encoding or decoding
+error.  For example, <code class=3D"docutils literal"><span class=3D"pre">e=
+rr.object[err.start:err.end]</span></code> gives the particular
+invalid input that the codec failed on.</p>
+<dl class=3D"attribute">
+<dt id=3D"UnicodeError.encoding">
+<code class=3D"descname">encoding</code><a class=3D"headerlink" href=3D"htt=
+ps://docs.python.org/3/library/exceptions.html#UnicodeError.encoding" title=
+=3D"Permalink to this definition">=C2=B6</a></dt>
+<dd><p>The name of the encoding that raised the error.</p>
+</dd></dl>
+
+<dl class=3D"attribute">
+<dt id=3D"UnicodeError.reason">
+<code class=3D"descname">reason</code><a class=3D"headerlink" href=3D"https=
+://docs.python.org/3/library/exceptions.html#UnicodeError.reason" title=3D"=
+Permalink to this definition">=C2=B6</a></dt>
+<dd><p>A string describing the specific codec error.</p>
+</dd></dl>
+
+<dl class=3D"attribute">
+<dt id=3D"UnicodeError.object">
+<code class=3D"descname">object</code><a class=3D"headerlink" href=3D"https=
+://docs.python.org/3/library/exceptions.html#UnicodeError.object" title=3D"=
+Permalink to this definition">=C2=B6</a></dt>
+<dd><p>The object the codec was attempting to encode or decode.</p>
+</dd></dl>
+
+<dl class=3D"attribute">
+<dt id=3D"UnicodeError.start">
+<code class=3D"descname">start</code><a class=3D"headerlink" href=3D"https:=
+//docs.python.org/3/library/exceptions.html#UnicodeError.start" title=3D"Pe=
+rmalink to this definition">=C2=B6</a></dt>
+<dd><p>The first index of invalid data in <a class=3D"reference internal" h=
+ref=3D"https://docs.python.org/3/library/functions.html#object" title=3D"ob=
+ject"><code class=3D"xref py py-attr docutils literal"><span class=3D"pre">=
+object</span></code></a>.</p>
+</dd></dl>
+
+<dl class=3D"attribute">
+<dt id=3D"UnicodeError.end">
+<code class=3D"descname">end</code><a class=3D"headerlink" href=3D"https://=
+docs.python.org/3/library/exceptions.html#UnicodeError.end" title=3D"Permal=
+ink to this definition">=C2=B6</a></dt>
+<dd><p>The index after the last invalid data in <a class=3D"reference inter=
+nal" href=3D"https://docs.python.org/3/library/functions.html#object" title=
+=3D"object"><code class=3D"xref py py-attr docutils literal"><span class=3D=
+"pre">object</span></code></a>.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"UnicodeEncodeError">
+<em class=3D"property">exception </em><code class=3D"descname">UnicodeEncod=
+eError</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/libr=
+ary/exceptions.html#UnicodeEncodeError" title=3D"Permalink to this definiti=
+on">=C2=B6</a></dt>
+<dd><p>Raised when a Unicode-related error occurs during encoding.  It is a=
+ subclass of
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/e=
+xceptions.html#UnicodeError" title=3D"UnicodeError"><code class=3D"xref py =
+py-exc docutils literal"><span class=3D"pre">UnicodeError</span></code></a>=
+.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"UnicodeDecodeError">
+<em class=3D"property">exception </em><code class=3D"descname">UnicodeDecod=
+eError</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/libr=
+ary/exceptions.html#UnicodeDecodeError" title=3D"Permalink to this definiti=
+on">=C2=B6</a></dt>
+<dd><p>Raised when a Unicode-related error occurs during decoding.  It is a=
+ subclass of
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/e=
+xceptions.html#UnicodeError" title=3D"UnicodeError"><code class=3D"xref py =
+py-exc docutils literal"><span class=3D"pre">UnicodeError</span></code></a>=
+.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"UnicodeTranslateError">
+<em class=3D"property">exception </em><code class=3D"descname">UnicodeTrans=
+lateError</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/l=
+ibrary/exceptions.html#UnicodeTranslateError" title=3D"Permalink to this de=
+finition">=C2=B6</a></dt>
+<dd><p>Raised when a Unicode-related error occurs during translating.  It i=
+s a subclass
+of <a class=3D"reference internal" href=3D"https://docs.python.org/3/librar=
+y/exceptions.html#UnicodeError" title=3D"UnicodeError"><code class=3D"xref =
+py py-exc docutils literal"><span class=3D"pre">UnicodeError</span></code><=
+/a>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"ValueError">
+<em class=3D"property">exception </em><code class=3D"descname">ValueError</=
+code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/exce=
+ptions.html#ValueError" title=3D"Permalink to this definition">=C2=B6</a></=
+dt>
+<dd><p>Raised when a built-in operation or function receives an argument th=
+at has the
+right type but an inappropriate value, and the situation is not described b=
+y a
+more precise exception such as <a class=3D"reference internal" href=3D"http=
+s://docs.python.org/3/library/exceptions.html#IndexError" title=3D"IndexErr=
+or"><code class=3D"xref py py-exc docutils literal"><span class=3D"pre">Ind=
+exError</span></code></a>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"ZeroDivisionError">
+<em class=3D"property">exception </em><code class=3D"descname">ZeroDivision=
+Error</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/libra=
+ry/exceptions.html#ZeroDivisionError" title=3D"Permalink to this definition=
+">=C2=B6</a></dt>
+<dd><p>Raised when the second argument of a division or modulo operation is=
+ zero.  The
+associated value is a string indicating the type of the operands and the
+operation.</p>
+</dd></dl>
+
+<p>The following exceptions are kept for compatibility with previous versio=
+ns;
+starting from Python 3.3, they are aliases of <a class=3D"reference interna=
+l" href=3D"https://docs.python.org/3/library/exceptions.html#OSError" title=
+=3D"OSError"><code class=3D"xref py py-exc docutils literal"><span class=3D=
+"pre">OSError</span></code></a>.</p>
+<dl class=3D"exception">
+<dt id=3D"EnvironmentError">
+<em class=3D"property">exception </em><code class=3D"descname">EnvironmentE=
+rror</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/librar=
+y/exceptions.html#EnvironmentError" title=3D"Permalink to this definition">=
+=C2=B6</a></dt>
+<dd></dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"IOError">
+<em class=3D"property">exception </em><code class=3D"descname">IOError</cod=
+e><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/excepti=
+ons.html#IOError" title=3D"Permalink to this definition">=C2=B6</a></dt>
+<dd></dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"WindowsError">
+<em class=3D"property">exception </em><code class=3D"descname">WindowsError=
+</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/ex=
+ceptions.html#WindowsError" title=3D"Permalink to this definition">=C2=B6</=
+a></dt>
+<dd><p>Only available on Windows.</p>
+</dd></dl>
+
+<div class=3D"section" id=3D"os-exceptions">
+<h3>5.2.1. OS exceptions<a class=3D"headerlink" href=3D"https://docs.python=
+.org/3/library/exceptions.html#os-exceptions" title=3D"Permalink to this he=
+adline">=C2=B6</a></h3>
+<p>The following exceptions are subclasses of <a class=3D"reference interna=
+l" href=3D"https://docs.python.org/3/library/exceptions.html#OSError" title=
+=3D"OSError"><code class=3D"xref py py-exc docutils literal"><span class=3D=
+"pre">OSError</span></code></a>, they get raised
+depending on the system error code.</p>
+<dl class=3D"exception">
+<dt id=3D"BlockingIOError">
+<em class=3D"property">exception </em><code class=3D"descname">BlockingIOEr=
+ror</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library=
+/exceptions.html#BlockingIOError" title=3D"Permalink to this definition">=
+=C2=B6</a></dt>
+<dd><p>Raised when an operation would block on an object (e.g. socket) set
+for non-blocking operation.
+Corresponds to <code class=3D"xref c c-data docutils literal"><span class=
+=3D"pre">errno</span></code> <code class=3D"docutils literal"><span class=
+=3D"pre">EAGAIN</span></code>, <code class=3D"docutils literal"><span class=
+=3D"pre">EALREADY</span></code>,
+<code class=3D"docutils literal"><span class=3D"pre">EWOULDBLOCK</span></co=
+de> and <code class=3D"docutils literal"><span class=3D"pre">EINPROGRESS</s=
+pan></code>.</p>
+<p>In addition to those of <a class=3D"reference internal" href=3D"https://=
+docs.python.org/3/library/exceptions.html#OSError" title=3D"OSError"><code =
+class=3D"xref py py-exc docutils literal"><span class=3D"pre">OSError</span=
+></code></a>, <a class=3D"reference internal" href=3D"https://docs.python.o=
+rg/3/library/exceptions.html#BlockingIOError" title=3D"BlockingIOError"><co=
+de class=3D"xref py py-exc docutils literal"><span class=3D"pre">BlockingIO=
+Error</span></code></a> can have
+one more attribute:</p>
+<dl class=3D"attribute">
+<dt id=3D"BlockingIOError.characters_written">
+<code class=3D"descname">characters_written</code><a class=3D"headerlink" h=
+ref=3D"https://docs.python.org/3/library/exceptions.html#BlockingIOError.ch=
+aracters_written" title=3D"Permalink to this definition">=C2=B6</a></dt>
+<dd><p>An integer containing the number of characters written to the stream
+before it blocked.  This attribute is available when using the
+buffered I/O classes from the <a class=3D"reference internal" href=3D"https=
+://docs.python.org/3/library/io.html#module-io" title=3D"io: Core tools for=
+ working with streams."><code class=3D"xref py py-mod docutils literal"><sp=
+an class=3D"pre">io</span></code></a> module.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"ChildProcessError">
+<em class=3D"property">exception </em><code class=3D"descname">ChildProcess=
+Error</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/libra=
+ry/exceptions.html#ChildProcessError" title=3D"Permalink to this definition=
+">=C2=B6</a></dt>
+<dd><p>Raised when an operation on a child process failed.
+Corresponds to <code class=3D"xref c c-data docutils literal"><span class=
+=3D"pre">errno</span></code> <code class=3D"docutils literal"><span class=
+=3D"pre">ECHILD</span></code>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"ConnectionError">
+<em class=3D"property">exception </em><code class=3D"descname">ConnectionEr=
+ror</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library=
+/exceptions.html#ConnectionError" title=3D"Permalink to this definition">=
+=C2=B6</a></dt>
+<dd><p>A base class for connection-related issues.</p>
+<p>Subclasses are <a class=3D"reference internal" href=3D"https://docs.pyth=
+on.org/3/library/exceptions.html#BrokenPipeError" title=3D"BrokenPipeError"=
+><code class=3D"xref py py-exc docutils literal"><span class=3D"pre">Broken=
+PipeError</span></code></a>, <a class=3D"reference internal" href=3D"https:=
+//docs.python.org/3/library/exceptions.html#ConnectionAbortedError" title=
+=3D"ConnectionAbortedError"><code class=3D"xref py py-exc docutils literal"=
+><span class=3D"pre">ConnectionAbortedError</span></code></a>,
+<a class=3D"reference internal" href=3D"https://docs.python.org/3/library/e=
+xceptions.html#ConnectionRefusedError" title=3D"ConnectionRefusedError"><co=
+de class=3D"xref py py-exc docutils literal"><span class=3D"pre">Connection=
+RefusedError</span></code></a> and <a class=3D"reference internal" href=3D"=
+https://docs.python.org/3/library/exceptions.html#ConnectionResetError" tit=
+le=3D"ConnectionResetError"><code class=3D"xref py py-exc docutils literal"=
+><span class=3D"pre">ConnectionResetError</span></code></a>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"BrokenPipeError">
+<em class=3D"property">exception </em><code class=3D"descname">BrokenPipeEr=
+ror</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library=
+/exceptions.html#BrokenPipeError" title=3D"Permalink to this definition">=
+=C2=B6</a></dt>
+<dd><p>A subclass of <a class=3D"reference internal" href=3D"https://docs.p=
+ython.org/3/library/exceptions.html#ConnectionError" title=3D"ConnectionErr=
+or"><code class=3D"xref py py-exc docutils literal"><span class=3D"pre">Con=
+nectionError</span></code></a>, raised when trying to write on a
+pipe while the other end has been closed, or trying to write on a socket
+which has been shutdown for writing.
+Corresponds to <code class=3D"xref c c-data docutils literal"><span class=
+=3D"pre">errno</span></code> <code class=3D"docutils literal"><span class=
+=3D"pre">EPIPE</span></code> and <code class=3D"docutils literal"><span cla=
+ss=3D"pre">ESHUTDOWN</span></code>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"ConnectionAbortedError">
+<em class=3D"property">exception </em><code class=3D"descname">ConnectionAb=
+ortedError</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/=
+library/exceptions.html#ConnectionAbortedError" title=3D"Permalink to this =
+definition">=C2=B6</a></dt>
+<dd><p>A subclass of <a class=3D"reference internal" href=3D"https://docs.p=
+ython.org/3/library/exceptions.html#ConnectionError" title=3D"ConnectionErr=
+or"><code class=3D"xref py py-exc docutils literal"><span class=3D"pre">Con=
+nectionError</span></code></a>, raised when a connection attempt
+is aborted by the peer.
+Corresponds to <code class=3D"xref c c-data docutils literal"><span class=
+=3D"pre">errno</span></code> <code class=3D"docutils literal"><span class=
+=3D"pre">ECONNABORTED</span></code>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"ConnectionRefusedError">
+<em class=3D"property">exception </em><code class=3D"descname">ConnectionRe=
+fusedError</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/=
+library/exceptions.html#ConnectionRefusedError" title=3D"Permalink to this =
+definition">=C2=B6</a></dt>
+<dd><p>A subclass of <a class=3D"reference internal" href=3D"https://docs.p=
+ython.org/3/library/exceptions.html#ConnectionError" title=3D"ConnectionErr=
+or"><code class=3D"xref py py-exc docutils literal"><span class=3D"pre">Con=
+nectionError</span></code></a>, raised when a connection attempt
+is refused by the peer.
+Corresponds to <code class=3D"xref c c-data docutils literal"><span class=
+=3D"pre">errno</span></code> <code class=3D"docutils literal"><span class=
+=3D"pre">ECONNREFUSED</span></code>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"ConnectionResetError">
+<em class=3D"property">exception </em><code class=3D"descname">ConnectionRe=
+setError</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/li=
+brary/exceptions.html#ConnectionResetError" title=3D"Permalink to this defi=
+nition">=C2=B6</a></dt>
+<dd><p>A subclass of <a class=3D"reference internal" href=3D"https://docs.p=
+ython.org/3/library/exceptions.html#ConnectionError" title=3D"ConnectionErr=
+or"><code class=3D"xref py py-exc docutils literal"><span class=3D"pre">Con=
+nectionError</span></code></a>, raised when a connection is
+reset by the peer.
+Corresponds to <code class=3D"xref c c-data docutils literal"><span class=
+=3D"pre">errno</span></code> <code class=3D"docutils literal"><span class=
+=3D"pre">ECONNRESET</span></code>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"FileExistsError">
+<em class=3D"property">exception </em><code class=3D"descname">FileExistsEr=
+ror</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library=
+/exceptions.html#FileExistsError" title=3D"Permalink to this definition">=
+=C2=B6</a></dt>
+<dd><p>Raised when trying to create a file or directory which already exist=
+s.
+Corresponds to <code class=3D"xref c c-data docutils literal"><span class=
+=3D"pre">errno</span></code> <code class=3D"docutils literal"><span class=
+=3D"pre">EEXIST</span></code>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"FileNotFoundError">
+<em class=3D"property">exception </em><code class=3D"descname">FileNotFound=
+Error</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/libra=
+ry/exceptions.html#FileNotFoundError" title=3D"Permalink to this definition=
+">=C2=B6</a></dt>
+<dd><p>Raised when a file or directory is requested but doesn=E2=80=99t exi=
+st.
+Corresponds to <code class=3D"xref c c-data docutils literal"><span class=
+=3D"pre">errno</span></code> <code class=3D"docutils literal"><span class=
+=3D"pre">ENOENT</span></code>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"InterruptedError">
+<em class=3D"property">exception </em><code class=3D"descname">InterruptedE=
+rror</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/librar=
+y/exceptions.html#InterruptedError" title=3D"Permalink to this definition">=
+=C2=B6</a></dt>
+<dd><p>Raised when a system call is interrupted by an incoming signal.
+Corresponds to <code class=3D"xref c c-data docutils literal"><span class=
+=3D"pre">errno</span></code> <a class=3D"reference internal" href=3D"https:=
+//docs.python.org/3/library/errno.html#errno.EINTR" title=3D"errno.EINTR"><=
+code class=3D"xref py py-data docutils literal"><span class=3D"pre">EINTR</=
+span></code></a>.</p>
+<div class=3D"versionchanged">
+<p><span class=3D"versionmodified">Changed in version 3.5: </span>Python no=
+w retries system calls when a syscall is interrupted by a
+signal, except if the signal handler raises an exception (see <span class=
+=3D"target" id=3D"index-4"></span><a class=3D"pep reference external" href=
+=3D"https://www.python.org/dev/peps/pep-0475"><strong>PEP 475</strong></a>
+for the rationale), instead of raising <a class=3D"reference internal" href=
+=3D"https://docs.python.org/3/library/exceptions.html#InterruptedError" tit=
+le=3D"InterruptedError"><code class=3D"xref py py-exc docutils literal"><sp=
+an class=3D"pre">InterruptedError</span></code></a>.</p>
+</div>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"IsADirectoryError">
+<em class=3D"property">exception </em><code class=3D"descname">IsADirectory=
+Error</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/libra=
+ry/exceptions.html#IsADirectoryError" title=3D"Permalink to this definition=
+">=C2=B6</a></dt>
+<dd><p>Raised when a file operation (such as <a class=3D"reference internal=
+" href=3D"https://docs.python.org/3/library/os.html#os.remove" title=3D"os.=
+remove"><code class=3D"xref py py-func docutils literal"><span class=3D"pre=
+">os.remove()</span></code></a>) is requested
+on a directory.
+Corresponds to <code class=3D"xref c c-data docutils literal"><span class=
+=3D"pre">errno</span></code> <code class=3D"docutils literal"><span class=
+=3D"pre">EISDIR</span></code>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"NotADirectoryError">
+<em class=3D"property">exception </em><code class=3D"descname">NotADirector=
+yError</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/libr=
+ary/exceptions.html#NotADirectoryError" title=3D"Permalink to this definiti=
+on">=C2=B6</a></dt>
+<dd><p>Raised when a directory operation (such as <a class=3D"reference int=
+ernal" href=3D"https://docs.python.org/3/library/os.html#os.listdir" title=
+=3D"os.listdir"><code class=3D"xref py py-func docutils literal"><span clas=
+s=3D"pre">os.listdir()</span></code></a>) is requested
+on something which is not a directory.
+Corresponds to <code class=3D"xref c c-data docutils literal"><span class=
+=3D"pre">errno</span></code> <code class=3D"docutils literal"><span class=
+=3D"pre">ENOTDIR</span></code>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"PermissionError">
+<em class=3D"property">exception </em><code class=3D"descname">PermissionEr=
+ror</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library=
+/exceptions.html#PermissionError" title=3D"Permalink to this definition">=
+=C2=B6</a></dt>
+<dd><p>Raised when trying to run an operation without the adequate access
+rights - for example filesystem permissions.
+Corresponds to <code class=3D"xref c c-data docutils literal"><span class=
+=3D"pre">errno</span></code> <code class=3D"docutils literal"><span class=
+=3D"pre">EACCES</span></code> and <code class=3D"docutils literal"><span cl=
+ass=3D"pre">EPERM</span></code>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"ProcessLookupError">
+<em class=3D"property">exception </em><code class=3D"descname">ProcessLooku=
+pError</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/libr=
+ary/exceptions.html#ProcessLookupError" title=3D"Permalink to this definiti=
+on">=C2=B6</a></dt>
+<dd><p>Raised when a given process doesn=E2=80=99t exist.
+Corresponds to <code class=3D"xref c c-data docutils literal"><span class=
+=3D"pre">errno</span></code> <code class=3D"docutils literal"><span class=
+=3D"pre">ESRCH</span></code>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"TimeoutError">
+<em class=3D"property">exception </em><code class=3D"descname">TimeoutError=
+</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/ex=
+ceptions.html#TimeoutError" title=3D"Permalink to this definition">=C2=B6</=
+a></dt>
+<dd><p>Raised when a system function timed out at the system level.
+Corresponds to <code class=3D"xref c c-data docutils literal"><span class=
+=3D"pre">errno</span></code> <code class=3D"docutils literal"><span class=
+=3D"pre">ETIMEDOUT</span></code>.</p>
+</dd></dl>
+
+<div class=3D"versionadded">
+<p><span class=3D"versionmodified">New in version 3.3: </span>All the above=
+ <a class=3D"reference internal" href=3D"https://docs.python.org/3/library/=
+exceptions.html#OSError" title=3D"OSError"><code class=3D"xref py py-exc do=
+cutils literal"><span class=3D"pre">OSError</span></code></a> subclasses we=
+re added.</p>
+</div>
+<div class=3D"admonition seealso">
+<p class=3D"first admonition-title">See also</p>
+<p class=3D"last"><span class=3D"target" id=3D"index-5"></span><a class=3D"=
+pep reference external" href=3D"https://www.python.org/dev/peps/pep-3151"><=
+strong>PEP 3151</strong></a> - Reworking the OS and IO exception hierarchy<=
+/p>
+</div>
+</div>
+</div>
+<div class=3D"section" id=3D"warnings">
+<h2>5.3. Warnings<a class=3D"headerlink" href=3D"https://docs.python.org/3/=
+library/exceptions.html#warnings" title=3D"Permalink to this headline">=C2=
+=B6</a></h2>
+<p>The following exceptions are used as warning categories; see the <a clas=
+s=3D"reference internal" href=3D"https://docs.python.org/3/library/warnings=
+.html#module-warnings" title=3D"warnings: Issue warning messages and contro=
+l their disposition."><code class=3D"xref py py-mod docutils literal"><span=
+ class=3D"pre">warnings</span></code></a>
+module for more information.</p>
+<dl class=3D"exception">
+<dt id=3D"Warning">
+<em class=3D"property">exception </em><code class=3D"descname">Warning</cod=
+e><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/excepti=
+ons.html#Warning" title=3D"Permalink to this definition">=C2=B6</a></dt>
+<dd><p>Base class for warning categories.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"UserWarning">
+<em class=3D"property">exception </em><code class=3D"descname">UserWarning<=
+/code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/exc=
+eptions.html#UserWarning" title=3D"Permalink to this definition">=C2=B6</a>=
+</dt>
+<dd><p>Base class for warnings generated by user code.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"DeprecationWarning">
+<em class=3D"property">exception </em><code class=3D"descname">DeprecationW=
+arning</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/libr=
+ary/exceptions.html#DeprecationWarning" title=3D"Permalink to this definiti=
+on">=C2=B6</a></dt>
+<dd><p>Base class for warnings about deprecated features.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"PendingDeprecationWarning">
+<em class=3D"property">exception </em><code class=3D"descname">PendingDepre=
+cationWarning</code><a class=3D"headerlink" href=3D"https://docs.python.org=
+/3/library/exceptions.html#PendingDeprecationWarning" title=3D"Permalink to=
+ this definition">=C2=B6</a></dt>
+<dd><p>Base class for warnings about features which will be deprecated in t=
+he future.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"SyntaxWarning">
+<em class=3D"property">exception </em><code class=3D"descname">SyntaxWarnin=
+g</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/e=
+xceptions.html#SyntaxWarning" title=3D"Permalink to this definition">=C2=B6=
+</a></dt>
+<dd><p>Base class for warnings about dubious syntax.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"RuntimeWarning">
+<em class=3D"property">exception </em><code class=3D"descname">RuntimeWarni=
+ng</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/=
+exceptions.html#RuntimeWarning" title=3D"Permalink to this definition">=C2=
+=B6</a></dt>
+<dd><p>Base class for warnings about dubious runtime behavior.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"FutureWarning">
+<em class=3D"property">exception </em><code class=3D"descname">FutureWarnin=
+g</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/e=
+xceptions.html#FutureWarning" title=3D"Permalink to this definition">=C2=B6=
+</a></dt>
+<dd><p>Base class for warnings about constructs that will change semantical=
+ly in the
+future.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"ImportWarning">
+<em class=3D"property">exception </em><code class=3D"descname">ImportWarnin=
+g</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/e=
+xceptions.html#ImportWarning" title=3D"Permalink to this definition">=C2=B6=
+</a></dt>
+<dd><p>Base class for warnings about probable mistakes in module imports.</=
+p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"UnicodeWarning">
+<em class=3D"property">exception </em><code class=3D"descname">UnicodeWarni=
+ng</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/=
+exceptions.html#UnicodeWarning" title=3D"Permalink to this definition">=C2=
+=B6</a></dt>
+<dd><p>Base class for warnings related to Unicode.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"BytesWarning">
+<em class=3D"property">exception </em><code class=3D"descname">BytesWarning=
+</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library/ex=
+ceptions.html#BytesWarning" title=3D"Permalink to this definition">=C2=B6</=
+a></dt>
+<dd><p>Base class for warnings related to <a class=3D"reference internal" h=
+ref=3D"https://docs.python.org/3/library/stdtypes.html#bytes" title=3D"byte=
+s"><code class=3D"xref py py-class docutils literal"><span class=3D"pre">by=
+tes</span></code></a> and <a class=3D"reference internal" href=3D"https://d=
+ocs.python.org/3/library/stdtypes.html#bytearray" title=3D"bytearray"><code=
+ class=3D"xref py py-class docutils literal"><span class=3D"pre">bytearray<=
+/span></code></a>.</p>
+</dd></dl>
+
+<dl class=3D"exception">
+<dt id=3D"ResourceWarning">
+<em class=3D"property">exception </em><code class=3D"descname">ResourceWarn=
+ing</code><a class=3D"headerlink" href=3D"https://docs.python.org/3/library=
+/exceptions.html#ResourceWarning" title=3D"Permalink to this definition">=
+=C2=B6</a></dt>
+<dd><p>Base class for warnings related to resource usage.</p>
+<div class=3D"versionadded">
+<p><span class=3D"versionmodified">New in version 3.2.</span></p>
+</div>
+</dd></dl>
+
+</div>
+<div class=3D"section" id=3D"exception-hierarchy">
+<h2>5.4. Exception hierarchy<a class=3D"headerlink" href=3D"https://docs.py=
+thon.org/3/library/exceptions.html#exception-hierarchy" title=3D"Permalink =
+to this headline">=C2=B6</a></h2>
+<p>The class hierarchy for built-in exceptions is:</p>
+<div class=3D"highlight-python3" style=3D"position: relative;"><div class=
+=3D"highlight"><pre><span></span><span class=3D"ne">BaseException</span>
+ <span class=3D"o">+--</span> <span class=3D"ne">SystemExit</span>
+ <span class=3D"o">+--</span> <span class=3D"ne">KeyboardInterrupt</span>
+ <span class=3D"o">+--</span> <span class=3D"ne">GeneratorExit</span>
+ <span class=3D"o">+--</span> <span class=3D"ne">Exception</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">StopIteration</span>
+      <span class=3D"o">+--</span> <span class=3D"n">StopAsyncIteration</sp=
+an>
+      <span class=3D"o">+--</span> <span class=3D"ne">ArithmeticError</span=
+>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">FloatingPointError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">OverflowError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">ZeroDivisionError</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">AssertionError</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">AttributeError</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">BufferError</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">EOFError</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">ImportError</span>
+           <span class=3D"o">+--</span> <span class=3D"n">ModuleNotFoundErr=
+or</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">LookupError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">IndexError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">KeyError</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">MemoryError</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">NameError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">UnboundLocalError</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">OSError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">BlockingIOError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">ChildProcessError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">ConnectionError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">|</span>    <span cla=
+ss=3D"o">+--</span> <span class=3D"ne">BrokenPipeError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">|</span>    <span cla=
+ss=3D"o">+--</span> <span class=3D"ne">ConnectionAbortedError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">|</span>    <span cla=
+ss=3D"o">+--</span> <span class=3D"ne">ConnectionRefusedError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">|</span>    <span cla=
+ss=3D"o">+--</span> <span class=3D"ne">ConnectionResetError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">FileExistsError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">FileNotFoundError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">InterruptedError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">IsADirectoryError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">NotADirectoryError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">PermissionError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">ProcessLookupError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">TimeoutError</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">ReferenceError</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">RuntimeError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">NotImplementedError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"n">RecursionError</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">SyntaxError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">IndentationError</span>
+      <span class=3D"o">|</span>         <span class=3D"o">+--</span> <span=
+ class=3D"ne">TabError</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">SystemError</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">TypeError</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">ValueError</span>
+      <span class=3D"o">|</span>    <span class=3D"o">+--</span> <span clas=
+s=3D"ne">UnicodeError</span>
+      <span class=3D"o">|</span>         <span class=3D"o">+--</span> <span=
+ class=3D"ne">UnicodeDecodeError</span>
+      <span class=3D"o">|</span>         <span class=3D"o">+--</span> <span=
+ class=3D"ne">UnicodeEncodeError</span>
+      <span class=3D"o">|</span>         <span class=3D"o">+--</span> <span=
+ class=3D"ne">UnicodeTranslateError</span>
+      <span class=3D"o">+--</span> <span class=3D"ne">Warning</span>
+           <span class=3D"o">+--</span> <span class=3D"ne">DeprecationWarni=
+ng</span>
+           <span class=3D"o">+--</span> <span class=3D"ne">PendingDeprecati=
+onWarning</span>
+           <span class=3D"o">+--</span> <span class=3D"ne">RuntimeWarning</=
+span>
+           <span class=3D"o">+--</span> <span class=3D"ne">SyntaxWarning</s=
+pan>
+           <span class=3D"o">+--</span> <span class=3D"ne">UserWarning</spa=
+n>
+           <span class=3D"o">+--</span> <span class=3D"ne">FutureWarning</s=
+pan>
+           <span class=3D"o">+--</span> <span class=3D"ne">ImportWarning</s=
+pan>
+           <span class=3D"o">+--</span> <span class=3D"ne">UnicodeWarning</=
+span>
+           <span class=3D"o">+--</span> <span class=3D"ne">BytesWarning</sp=
+an>
+           <span class=3D"o">+--</span> <span class=3D"ne">ResourceWarning<=
+/span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class=3D"sphinxsidebar" role=3D"navigation" aria-label=3D"main n=
+avigation">
+        <div class=3D"sphinxsidebarwrapper" style=3D"float: left; margin-ri=
+ght: 0px; width: 1141.33px; top: 0px;">
+  <h3><a href=3D"https://docs.python.org/3/contents.html">Table Of Contents=
+</a></h3>
+  <ul>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3/libra=
+ry/exceptions.html#">5. Built-in Exceptions</a><ul>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3/libra=
+ry/exceptions.html#base-classes">5.1. Base classes</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3/libra=
+ry/exceptions.html#concrete-exceptions">5.2. Concrete exceptions</a><ul>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3/libra=
+ry/exceptions.html#os-exceptions">5.2.1. OS exceptions</a></li>
+</ul>
+</li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3/libra=
+ry/exceptions.html#warnings">5.3. Warnings</a></li>
+<li><a class=3D"reference internal" href=3D"https://docs.python.org/3/libra=
+ry/exceptions.html#exception-hierarchy">5.4. Exception hierarchy</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class=3D"topless"><a href=3D"https://docs.python.org/3/library/stdtype=
+s.html" title=3D"previous chapter">4. Built-in Types</a></p>
+  <h4>Next topic</h4>
+  <p class=3D"topless"><a href=3D"https://docs.python.org/3/library/text.ht=
+ml" title=3D"next chapter">6. Text Processing Services</a></p>
+  <div role=3D"note" aria-label=3D"source link">
+    <h3>This Page</h3>
+    <ul class=3D"this-page-menu">
+      <li><a href=3D"https://docs.python.org/3/bugs.html">Report a Bug</a><=
+/li>
+      <li>
+        <a href=3D"https://github.com/python/cpython/blob/3.6/Doc/library/e=
+xceptions.rst" rel=3D"nofollow">Show Source
+        </a>
+      </li>
+    </ul>
+  </div>
+        </div>
+      <div id=3D"sidebarbutton" title=3D"Collapse sidebar" style=3D"border-=
+radius: 0px 5px 5px 0px; color: rgb(68, 68, 68); background-color: rgb(204,=
+ 204, 204); font-size: 1.2em; cursor: pointer; height: 10785.2px; padding-t=
+op: 1px; padding-left: 1px; margin-left: 1157.33px;"><span style=3D"display=
+: block; position: fixed; top: 314.5px;">=C2=AB</span></div><div id=3D"side=
+barbutton"><span>=C2=AB</span></div></div>
+      <div class=3D"clearer"></div>
+    </div> =20
+    <div class=3D"related" role=3D"navigation" aria-label=3D"related naviga=
+tion">
+      <h3>Navigation</h3>
+      <ul>
+        <li class=3D"right" style=3D"margin-right: 10px">
+          <a href=3D"https://docs.python.org/3/genindex.html" title=3D"Gene=
+ral Index">index</a></li>
+        <li class=3D"right">
+          <a href=3D"https://docs.python.org/3/py-modindex.html" title=3D"P=
+ython Module Index">modules</a> |</li>
+        <li class=3D"right">
+          <a href=3D"https://docs.python.org/3/library/text.html" title=3D"=
+6. Text Processing Services">next</a> |</li>
+        <li class=3D"right">
+          <a href=3D"https://docs.python.org/3/library/stdtypes.html" title=
+=3D"4. Built-in Types">previous</a> |</li>
+        <li><img src=3D"file:///C:/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%=
+8F/GitHubs/GitHub/python-basic-and-use/Lesson%2002/5.%20Built-in%20Exceptio=
+ns%20%E2%80%94%20Python%203.6.2%20documentation_files/py.png" alt=3D"" styl=
+e=3D"vertical-align: middle; margin-top: -1px"></li>
+        <li><a href=3D"https://www.python.org/">Python</a> =C2=BB</li>
+        <li>
+          <span class=3D"language_switcher_placeholder"><select><option val=
+ue=3D"en" selected=3D"selected">English</option><option value=3D"fr">French=
+</option><option value=3D"ja">Japanese</option></select></span>
+          <span class=3D"version_switcher_placeholder"><select><option valu=
+e=3D"3.7">dev (3.7)</option><option value=3D"3.6" selected=3D"selected">3.6=
+.2</option><option value=3D"3.5">3.5</option><option value=3D"3.4">3.4</opt=
+ion><option value=3D"3.3">3.3</option><option value=3D"2.7">2.7</option></s=
+elect></span>
+          <a href=3D"https://docs.python.org/3/index.html">Documentation </=
+a> =C2=BB
+        </li>
+
+          <li class=3D"nav-item nav-item-1"><a href=3D"https://docs.python.=
+org/3/library/index.html">The Python Standard Library</a> =C2=BB</li>
+    <li class=3D"right">
+       =20
+
+    <div class=3D"inline-search" style=3D"" role=3D"search">
+        <form class=3D"inline-search" action=3D"https://docs.python.org/3/s=
+earch.html" method=3D"get">
+          <input placeholder=3D"Quick search" type=3D"text" name=3D"q">
+          <input type=3D"submit" value=3D"Go">
+         =20
+         =20
+        </form>
+    </div>
+   =20
+         |
+    </li>
+
+      </ul>
+    </div> =20
+    <div class=3D"footer">
+    =C2=A9 <a href=3D"https://docs.python.org/3/copyright.html">Copyright</=
+a> 2001-2017, Python Software Foundation.
+    <br>
+    The Python Software Foundation is a non-profit corporation.
+    <a href=3D"https://www.python.org/psf/donations/">Please donate.</a>
+    <br>
+    Last updated on Aug 29, 2017.
+    <a href=3D"https://docs.python.org/3/bugs.html">Found a bug</a>?
+    <br>
+    Created using <a href=3D"http://sphinx.pocoo.org/">Sphinx</a> 1.6.2.
+    </div>
+
+ =20
+<div style=3D"position: static;"></div><div id=3D"yinfo-badge"></div><span =
+id=3D"sbmarwbthv5"></span></body></html>
+------MultipartBoundary--NOQildmfcujA6HOyxp5L62T6O6GJFmI3HhqFpCJu8B----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-0aab4b55-46ab-4a9c-a331-98c288c8ed51@mhtml.blink
+
+@charset "utf-8";
+
+#lleo_dialog, #lleo_dialog * { color: rgb(0, 0, 0) !important; font: 13px /=
+ 15px Arial, Helvetica !important; margin: 0px !important; padding: 0px !im=
+portant; background: none !important; border: 0px none !important; position=
+: static !important; vertical-align: baseline !important; overflow: visible=
+ !important; width: auto !important; height: auto !important; max-width: no=
+ne !important; max-height: none !important; float: none !important; visibil=
+ity: visible !important; text-align: left !important; text-transform: none =
+!important; border-collapse: separate !important; border-spacing: 2px !impo=
+rtant; box-sizing: content-box !important; box-shadow: none !important; opa=
+city: 1 !important; text-shadow: none !important; letter-spacing: normal !i=
+mportant; filter: none !important; }
+
+#lleo_dialog ::before, #lleo_dialog ::after { content: ""; }
+
+#lleo_dialog iframe { height: 0px !important; width: 0px !important; }
+
+#lleo_dialog { left: -999px; top: -999px; overflow: hidden; transform: tran=
+slateY(15px); position: absolute !important; background: rgb(255, 255, 255)=
+ !important; border: 1px solid rgb(204, 204, 204) !important; padding: 7px =
+0px 0px !important; width: 440px !important; display: block !important; z-i=
+ndex: 999999999 !important; box-shadow: rgba(0, 0, 0, 0.16) 8px 16px 30px !=
+important; border-radius: 3px !important; opacity: 0 !important; }
+
+#lleo_dialog.lleo_show_small { width: 150px !important; }
+
+#lleo_dialog.lleo_show { transform: translateY(0px); opacity: 1 !important;=
+ transition: transform 0.3s ease 0s, opacity 0.3s ease 0s !important; }
+
+#lleo_dialog.lleo_collapse { transform: scale(0.25, 0.1) translate(-550px, =
+100px); opacity: 0 !important; transition: transform 0.4s ease 0s, opacity =
+0.4s ease 0s !important; }
+
+#lleo_dialog input::-webkit-input-placeholder { color: rgb(170, 170, 170) !=
+important; }
+
+#lleo_dialog .lleo_has_pic #lleo_word { margin-right: 80px !important; }
+
+#lleo_dialog #lleo_translationsContainer1 { position: relative !important; =
+}
+
+#lleo_dialog #lleo_translationsContainer2 { padding: 7px 0px 0px !important=
+; vertical-align: middle !important; }
+
+#lleo_dialog #lleo_word { color: rgb(0, 0, 0) !important; margin: 0px 5px 2=
+px 0px !important; }
+
+#lleo_dialog .lleo_has_sound #lleo_word { margin-left: 30px !important; }
+
+#lleo_dialog #lleo_text { font-weight: bold !important; color: rgb(213, 110=
+, 0) !important; text-decoration: none !important; cursor: default !importa=
+nt; }
+
+#lleo_dialog #lleo_optionsBtn { display: none; position: absolute !importan=
+t; right: 3px !important; top: 5px !important; line-height: 1px !important;=
+ text-decoration: none !important; font-weight: bold !important; font-size:=
+ 13px !important; color: rgb(170, 170, 170) !important; padding: 2px !impor=
+tant; }
+
+#lleo_dialog.lleo_optionsShown #lleo_optionsBtn { display: block !important=
+; }
+
+#lleo_dialog #lleo_optionsBtn img { width: 12px !important; height: 12px !i=
+mportant; }
+
+#lleo_dialog #lleo_sound { float: left !important; width: 16px !important; =
+height: 16px !important; margin-left: 9px !important; margin-right: 3px !im=
+portant; cursor: pointer !important; display: none !important; background: =
+url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA=
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfNJREFUeNq0U01IVFEU/u57Oo5=
+WhBRIBBptykWLYBa2soWiEKQQEbrSFsGbVRQKQc2iFqGitXqvjQxCoCJCqyI0aBUtZILaJNUuYW=
+YWo8HovJ/707nP94bnz0rxwvfOuefd8517fi5TSuE4i50YwZ3l37ZhNlpgzFkaaM/G9sHF1YskN=
+rT+7l4PjMOcb78t2JL71uxgB+2UlfxHTtq5N94fIOh/88kWgWfl73ZCSQkpeGg3H091JY6dI2S0=
+0qA/N3KO3dDUYhFgEmZGurG+w9FqApIHsVM7kaTF9Nhn0r8Q7hPWQgIRuNaH3AMUA4W/Lkdh04c=
+pFS43G0TgxQTvCdMETVAk3KynIHwXZU/ge8XDt7KH9bKLjU0P2zVO5LsEpSejVRJ9UR18EtfqKe=
+govs9R3Q6w9c/H1o4Aa2Jwm1lIvn9RJ4w9RdRRzqcYrpwycCll4Cy1lnkS3Bc6vfBg28v8aRIfI=
+78zhB/1GygROH3jLyyzMQ0zlUZuZBSlKkeLoegGtTjYLcJ8pF+NakHOFC2J6w+f25mxSfWrWFF/=
+ShXVPTGvtN14NNkVnxlYWJkgZEL7/vwKr55lKSVnaGYWkuYgrgG172uUv47+U7fw0EHaJXmalUQ=
+y/HqO6lBzEsVjJC4Q8kd6TETQpjuaGOvjv8b/AgwA/ij1XMx58NIAAAAASUVORK5CYII=3D") !=
+important; }
+
+#lleo_dialog .lleo_has_sound #lleo_sound { display: block !important; }
+
+#lleo_dialog #lleo_soundWave { border: 5px solid rgb(68, 149, 204) !importa=
+nt; border-radius: 5px !important; position: absolute !important; inset: -5=
+px !important; z-index: 0 !important; opacity: 0.9 !important; display: non=
+e !important; }
+
+#lleo_dialog #lleo_soundWave.lleo_beforePlaying { display: block !important=
+; }
+
+#lleo_dialog #lleo_soundWave.lleo_playing { opacity: 0 !important; border-w=
+idth: 20px !important; border-radius: 30px !important; transform: scale(1.0=
+7, 1.1) !important; transition: all 0.6s ease 0s !important; }
+
+#lleo_dialog #lleo_picOuter { top: 4px; right: 5px; position: absolute !imp=
+ortant; float: right !important; z-index: 9 !important; display: none !impo=
+rtant; width: 100px !important; }
+
+#lleo_dialog.lleo_optionsShown #lleo_picOuter { right: 25px; }
+
+#lleo_dialog .lleo_has_pic #lleo_picOuter { display: block !important; }
+
+#lleo_dialog #lleo_picOuter:hover { width: auto !important; z-index: 11 !im=
+portant; }
+
+#lleo_dialog #lleo_pic, #lleo_dialog #lleo_picBig { position: absolute !imp=
+ortant; top: 0px !important; right: 0px !important; border: 2px solid rgb(2=
+55, 255, 255) !important; border-radius: 2px !important; z-index: 1 !import=
+ant; }
+
+#lleo_dialog #lleo_pic { position: relative !important; border: none !impor=
+tant; width: 30px !important; }
+
+#lleo_dialog #lleo_picBig { box-shadow: rgba(0, 0, 0, 0.3) -1px 2px 4px; z-=
+index: 2 !important; opacity: 0 !important; visibility: hidden !important; =
+}
+
+#lleo_dialog #lleo_picOuter:hover #lleo_picBig { visibility: visible !impor=
+tant; opacity: 1 !important; transition: opacity 0.3s ease 0.3s !important;=
+ }
+
+#lleo_dialog #lleo_transcription { margin: 0px 80px 4px 31px !important; co=
+lor: rgb(170, 170, 170) !important; }
+
+#lleo_dialog .lleo_no_trans { color: rgb(170, 170, 170) !important; }
+
+#lleo_dialog .ll-translation-counter { float: right !important; font-size: =
+11px !important; color: rgb(170, 170, 170) !important; padding: 2px 2px 1px=
+ 10px !important; }
+
+#lleo_dialog .ll-translation-text { float: left !important; }
+
+#lleo_dialog #lleo_trans a { color: rgb(63, 102, 159) !important; text-deco=
+ration: none !important; text-overflow: ellipsis !important; padding: 1px 4=
+px !important; overflow: hidden !important; float: left !important; width: =
+320px !important; }
+
+#lleo_dialog .ll-translation-item { color: rgb(63, 102, 159) !important; bo=
+rder: 1px solid rgb(255, 255, 255) !important; padding: 3px !important; wid=
+th: 100% !important; float: left !important; border-radius: 2px !important;=
+ }
+
+#lleo_dialog .ll-translation-item:hover { border: 1px solid rgb(159, 194, 2=
+01) !important; background: rgb(237, 244, 246) !important; cursor: pointer =
+!important; }
+
+#lleo_dialog .ll-translation-item:hover .ll-translation-counter { color: rg=
+b(131, 160, 166) !important; }
+
+#lleo_dialog .ll-translation-marker { background: url("data:image/png;base6=
+4,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAAARnQU1BA=
+ACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAWSURBVBhXY7RPm/+fAQkwIXNAbMICAJQ8=
+AkvqWg/SAAAAAElFTkSuQmCC") !important; display: inline-block !important; wi=
+dth: 4px !important; height: 4px !important; margin: 7px 5px 2px 2px !impor=
+tant; float: left !important; }
+
+#lleo_dialog #lleo_icons { color: rgb(170, 170, 170) !important; font-size:=
+ 11px !important; background: rgb(248, 248, 248) !important; padding: 10px =
+10px 10px 16px !important; }
+
+#lleo_icons a { display: inline-block !important; width: 16px !important; h=
+eight: 16px !important; margin: 0px 10px -4px 3px !important; text-decorati=
+on: none !important; opacity: 0.5 !important; background: url("data:image/p=
+ng;base64,iVBORw0KGgoAAAANSUhEUgAAAHIAAAAQCAYAAADK4SssAAAAGXRFWHRTb2Z0d2FyZ=
+QBBZG9iZSBJbWFnZVJlYWR5ccllPAAADopJREFUeNqsWQt0lNWd/33fzGQemUcmzwkhSkhYSSgp=
+JJGVWHlEVEwLq0AFhC520xN0cfcUkHZ7QNetwfac6mp3oR5Ss8c9XaPVhoJCtGwSkYQglQBBNg/=
+IgxBIQl7zyCSZ97f/e7+ZyeShpu7eM/fc797vu9/j/u7v93+MUqlUwuv1IlQ6Ojqk7u5utLaWo/=
+nanfB45tbnsSI6GgsXLhQwpcx/9rCE/0PpOLSL39Pnh9TY2Y1NJXW4NeTFz59agp9uXASfYwR/X=
+v9dxJ6pxwJBhCIQoKtFuIUAXPRksyTx+U2rVy0TtdrywNhYeviFJAlSsJ1oJNY2ZdfVLeKdiGIb=
+96Kqw45LvU40Dbj42F2mKNyXasCjGTGI0aqmvr6wdseL075fEORl6h+yYWzcDaNeh8Q4E7z0kVP=
+Lx//5Il0uTLqHQqGA3z/92qioKHg8Hn5/SZqYogwdOBwO6d19+9DQ0ADdqrmTJhesLML6nQ38uL=
+j4jHSkuJi/a+Q1vd8QxORg6/dBUtDblLzbhBuuOIhJcfhl5QCeyB9DusWA3MO/hf2+e6FwjtFHK=
+Gj15Y8M0Cd0KQTpbr8kCBrNsaTn9iXoH3jga5/739nZC7Mj+n7aHBVNwwSUEhuy4rCR6m8vD9ID=
+5MVyeAI4cPo2suI0KMpJgEoU+A5QiCKmg0jT6H49/cP4Tt4i/FXaHLS0d6O57RZ0WvXXvltaWhp=
+Onz7NCbZ371588MEHHLQ9e/bwev78eTzzzDPo7+8PzxFDIO4rKOAgomHihq+9ckxgdd26dWHQSk=
+uBvJ2lmLqTv2kJbQAGot/nw9U7xDa9CQHakY5xFd45f4OdhWZhFtz534GP9k9A9PPWIxGgAu2Ag=
+HwP79hYYseRI8q+f/832Kqr4O7t5bt6pioFAmIkiJXXrbCYtbg85MF1q5vv+IFxH6KUApSizLDs=
+JB09F2i3yozoc3pn/CaBVKPr9gC+X3g/3ih5GruL1mPPjx7DwLCdA/x1xWKx4K677kJ6ejpWr14=
+dHt+xYwdSUlKQl5cHvV4/aQ7/GMZEDiDVI9IF4asecqQ4FwzvnaWl/x84hhnJwFAKSiTFaCDS7i=
+fhhEjMu9pJS0dg0SH8Bh28BKqCXSuRxAp+ApMAFBX8Hj6PR3G+uhrDFRXoeekltG3ZjOsbN6L7w=
+H4M/O53GKEX97pc8NGGCckSW9ibdg9anBJqu0ZgpFvNM0ahf8yH75GU7siOx3aqIjHQS8+N0SiR=
+Ga/BhR4nLHpVhBSKfEN03erHny+3IinehBf+cQuqzzby8+1dfURuKSy5X1UMBkP4eM6cOfxdmdQ=
+uWrSIj7nd7mlAKquqqqTyVXtnvfCFhUkoRi4xswG7V7RIM9lMVvJJHoryM7Gr4hxcLisfO7m3EI=
+crm1HZ3DmNkYIo79RHFsfjbHMvlGozLTKBKSpJPhUQ3WRvmlpwO1mE1WCGygMk2pxIcHjhlfzBz=
+SDbQ2Jb2C56Bwfhra2F40wtFxHRaMK899+nU/LzGGAvnR+ARSUTNDVaBTVRMI6AO3VjhMCRkGPR=
+UQusutuABbFqDsaJ63akmtQEZhSf5xx1wWTU4eBPfoDBYQeSE818fOV9i/HZpVYcPPQeLPHmWQG=
+ZmJgYPmasZGXt2rUcTFaiyVeJBJszMgxi7uxZxFjJrn/tzBnef5MA6iwp4uCFyrjVhieXp6H5wI=
+Yw61ip2FUIjcYc7oeO227a2DKjeG0GFib74LPZoVf58NTKuSSiAkr/9CaeeMSFFQeWYsOPv4XCv=
+Vl44GdLsbVoMU5mmcLsCrUBWnneRlYa81qHJzHy983UJzBvOTy8ppvV/Nz+2j581GwjGZav27Aw=
+Bp/dHsUgXcuY1TLgxns0N/y9LjdMhmisJuD+dkMB1j24jJ7jx5vvnsLT+98gJ8cHg147q/XNyso=
+CcziHhoY4C1NTU7F582Y0NjZikDZmXFzcdGkt6f8IxReO/KWKKDAsS4P29EDZOVhJsqqDgC6NMe=
+OSzQrzc+Uhr5SDvPHwOd4/vHF5WFYL0mL48fee/wBHP2lGkl6Dcy+vwVu70nHhYB7WLJmDX/ypF=
+Dsbf42erBTZmwPRkfTVRTJXnx2Ln27PnQCSFpm1UhA8KeDnAPI2OM6cCCnoxLzfYkP3qA/dTh/u=
+jPuxxKJF7e0x1BIbB91+LErUYoDA23rsBk5ccyCRGHu224meMT+fGyrxsUb09VtBHiyy1/4DOm7=
+ewcjoOF58vRz6aDUSyGP1zeCxzlSYnLa3t8NqtUKtVnM2LliwALWkLIyJbA00Gs1kaaVJQjD8mO=
+a87H7uMT722LrdMzyOFq9BRrKPQMspeZsDU09AHn1ug7yLXzmKtANlKNtWyEF+tvwcHny1kh8XZ=
+BbBQvawzya7+MMuLX7063r85vhlFORasH/7CtouEk5f/xzPf/IykJFI8ubjVl3wqYJSSrbTEwi/=
+ul+SJTUEaESowVuOHXUiGXnJ6oVRLTP50XkGREcp8M41GzpcPjycZICOJPdfzvXhf0a8+GGWnhw=
+fAUdJVtvo/IhnAphAQOJ2Uh2lQrROgzlJsQRmHwFsQrRWQ8wOzJoljG03b97kjMzIyMDWrVu5Xa=
+ypqcGWLVsQGxsLo9E43dmZzY1n64Ey4Ha9XcP7DFAG4qGT5/BqzSUcenI5Dm3L5+dqyA4yUPPpe=
+lZiFR7oozSov+7Cq+XXcKN/lBZbgfmxKchIzyEL74JIjqboVxIkBCAtnAAVj4Ek0SMvZnCxQrLq=
+j6wRUhsJJK097rj8vK4hG+ghKX2fgGL9VanRXEb/i5jH+o/ON5LDI6G8Ve6LX2LuEgg8jVqFnjv=
+D8Hh9s7KLkxzA5GR88cUXOH78OO8zz5W998mTJ9HZ2Ul+g8jlNfK+XwlkKPzIzc2d4U0aJtlVJq=
+che8ecmRCgBZnJxNInZfDoJTItMSSxlSh6uxL1nRNOj9c2iLlaN9bnxeMHaxfC5qAQgZ6aGpeMs=
+1tK8XD8CkhjTlpYGiSAA4LMQ84yr2qatPpD8uqPlFm55dIaBHLzPSZIPgksuls334CaW04MkcyK=
+BOg6Au6znjH0EBtTSMbvn6NDzQ0HOUh+PofNjSzs3g7nOCwJsrnout0fTkR8qY2aAWSz2Qyn0ym=
+Hg8HS3NzMEwHDw8Nhh2fGhMBfUljcyexjcQSQjH0hqXz7Inmml3oJOBsHtDAzDYe3FfDz5ec6Z/=
+RaS/YU4KHcxYgzi/DZmzA8dAZdl3uQnLEJ8YYEnNj0Ov7mvT34uLcaUhTJip88WWJWIKAIpyZC3=
+ioHjR1JEZmdCImNZGTx4jiUXbWjMM0IA8lqxXUHD+hXpuoRr1Xil239fLGfINBEan9P7BQ4FQU+=
+V3aOJc4+pVKBzu4+PLWpgI9/WPM5OTi6aVmYyDJ1XKvVchvIWNfa2gqbzYaYmBhcvHiRn3e5XOH=
+MzyQb+U2A3PfudU7I3btXhMeYPczJSkOaRYNtOZnYW7A0bP8YsCWVsrQeICbOFEduLfg2nIONuH=
+z8aZhxBUrVGJRuEZ3XDiHlwT/CGJuOfy3Yi7r/uIIRkmGFjxYnwLIItKi+CSC5LQy24TWakqbjq=
+a/gcS45M0uTNBwoJpvH2x3cS348w8gX+Xib3P/+PTFw+wI41j7C+0voO9lcbt/tTjz+yHIUrs6F=
+j+59b/YCUpRR2Kk6yeFhVU92U6OO4naUybXb4+XjLHUXWZhkqlQqDhh7z7a2Np4AuHr1aohE4Vi=
+TpVfZpvxGQL5UeYfHkCxLFxlDMi/1Ur0cLx44Ws9ldlvOBLAhtvZ+SWbHHRhFa/VOpBvPw2RmwT=
+UF/14JmsEm9NfthmH9CdwTfzcs0YkYcXXCz9ItBKKKHB+fT86weP3+PkLMEo4jg6yMBDEEZIgJb=
+OdXbUjD65eHUHumD0PjPs7wJqsb/1TXh3aKU1MMKiwjb/bDNjtsJKkatYC3Hkrhc/kmXrscP3tm=
+Ey43dWJJlhyCMafnk3cO4sKVNlTXX+FMHbQ64HJ7OaCW+Bjk52by8cgyb948XkdGRnifAUjrzG0=
+jT3oEgWN2NDIXq4w0ebMpDMTcXBZLFn9lnpUlAcoigC3Kz+GMZACHEgSRcaTH3g+97xY0qhiMkI=
+0SfGQH6T112lj4XbcheEcxLkbD5RylhVaRrEaRnfSSp+oPhxIdbvezGqWyjEAyRUrWVCBd4+PSR=
+bf79KaQTSL79/cUxtxf0SknSlmsfMUatmHLLDouq0eJrfPj1PjNymSYVBPuhdmkD4cgpz+7ircq=
+qqEimd3+2Cqs/OtvIS87I3zt6JiLJxkYCMyeNkaYGZ5YINtYVVUVls6ysjJuGxn7WDl16hQHmkk=
+ua0MAh4H8lb0G+0wFM4PX0BBeBQZiza+2TEqaJ0eAGQpBJuUOYyZinpzkGHJyrNOeoY2ZB3XCGo=
+wOV0Cp0/HQQylEwT+ugHrOOrKLenz4+cfosfdCMJDdYZkZryh7qpKcXdnZ1VXBcg4/TkwUF2k0+=
+00KxaNmhSJPIQiT/rLoaGv7/BeDgw+9HDGWpFOh5ckM/KFjBD+pv4MeZ5C19BOVMmiPLzDhlRXJ=
+aOwdxVxj9IR/8FE9zl9q5Uy7eq0LNvsoHz97oYXCEDOSE8xIosrklaX6HCNj6O4d4uHJ1MKcmhd=
+eeAF2u5336+rqOOgh23jixAlcuXJlGiOFqX9jsfLpp59Kxz58jXutISCZB7Vq6WZsvdc0499Y1i=
+DTmPe6sYAko09+cC8Ftb29cuBcUrQcyVoz8l+ZsJNmmhP+G2t0SLI1vg6l/QuI3jEEVBqoLQ9Ds=
+bgILT19+O4bu3BLHKDFoLCA7SOJZEZSQTpY86X+/TK9XvmEyfR30aK4MUWjyffpdM4NjY2RyaZp=
+XgizsSPeAKxuOZwxq0Wyj360DpFtpsvvm6sPyypbwzXbn5eYTWS206jXUhCv4gLA7sOk1OX2kE1=
+kGaEAv4Y5RVq6RqtR8+OP3vrnaX9jRXq1kvT1/0/8rwADAJ+LRelLmVNwAAAAAElFTkSuQmCC")=
+ !important; }
+
+#lleo_icons a:hover { opacity: 1 !important; }
+
+#lleo_icons a.lleo_google { background-position: -34px 0px !important; }
+
+#lleo_icons a.lleo_multitran { background-position: -64px 0px !important; }
+
+#lleo_icons a.lleo_lingvo { background-position: -51px 0px !important; widt=
+h: 12px !important; }
+
+#lleo_icons a.lleo_dict { background-position: -17px 0px !important; }
+
+#lleo_icons a.lleo_linguee { background-position: -81px 0px !important; }
+
+#lleo_icons a.lleo_michaelis { background-position: -98px 0px !important; }
+
+#lleo_dialog #lleo_contextContainer { margin: 0px !important; padding: 3px =
+15px 8px 10px !important; background: -webkit-gradient(linear, 0% 0%, 0% 10=
+0%, from(rgb(255, 255, 255)), to(rgb(238, 238, 238))) !important; border-bo=
+ttom: 1px solid rgb(221, 221, 221) !important; border-top-left-radius: 3px =
+!important; border-top-right-radius: 3px !important; display: none !importa=
+nt; overflow: hidden !important; }
+
+#lleo_dialog .lleo_has_context #lleo_contextContainer { display: block !imp=
+ortant; }
+
+#lleo_dialog #lleo_context { color: rgb(68, 68, 68) !important; text-shadow=
+: rgb(244, 244, 244) 1px 1px 0px !important; line-height: 12px !important; =
+font-size: 11px !important; margin-left: 2px !important; }
+
+#lleo_dialog #lleo_context b { line-height: 12px !important; color: rgb(0, =
+0, 0) !important; font-weight: bold !important; font-size: 11px !important;=
+ }
+
+#lleo_dialog #lleo_translateContextLink { color: rgb(68, 68, 68) !important=
+; text-shadow: rgb(244, 244, 244) 1px 1px 0px !important; background: -webk=
+it-gradient(linear, 0% 0%, 0% 100%, from(rgb(244, 244, 244)), to(rgb(221, 2=
+21, 221))) !important; border-width: 1px !important; border-style: solid !i=
+mportant; border-image: initial !important; box-shadow: rgb(246, 246, 246) =
+1px 1px 0px !important; border-color: rgb(153, 153, 153) rgb(170, 170, 170)=
+ rgb(170, 170, 170) rgb(153, 153, 153) !important; border-radius: 2px !impo=
+rtant; padding: 0px 3px !important; font-size: 11px !important; text-decora=
+tion: none !important; margin: 1px 5px 0px !important; display: inline-bloc=
+k !important; white-space: nowrap !important; }
+
+#lleo_dialog #lleo_translateContextLink:hover { background: rgb(248, 248, 2=
+48) !important; }
+
+#lleo_dialog #lleo_translateContextLink.hidden { visibility: hidden !import=
+ant; }
+
+#lleo_dialog #lleo_setTransForm { display: block !important; margin-top: 3p=
+x !important; padding-top: 5px !important; position: relative !important; b=
+ackground: rgb(255, 255, 255) !important; z-index: 10 !important; padding-b=
+ottom: 10px !important; padding-left: 16px !important; }
+
+#lleo_dialog .lleo-custom-translation { padding: 4px 5px !important; border=
+: 1px solid rgb(221, 221, 221) !important; border-radius: 2px !important; w=
+idth: 90% !important; min-width: 270px !important; background: -webkit-grad=
+ient(linear, 0 0, 0 20, from(rgb(241, 241, 241)), to(rgb(255, 255, 255))) !=
+important; font: 13px / 15px Arial, Helvetica !important; }
+
+#lleo_dialog .lleo-custom-translation:hover { border: 1px solid rgb(170, 17=
+0, 170) !important; }
+
+#lleo_dialog .lleo-custom-translation:focus { background: rgb(255, 254, 201=
+) !important; }
+
+#lleo_dialog .hidden { display: none !important; }
+
+#lleo_dialog .infinitive { text-decoration: none; color: rgb(213, 110, 0) !=
+important; border-bottom: 1px dotted rgb(213, 110, 0) !important; }
+
+#lleo_dialog .infinitive:hover { border: none !important; }
+
+#lleo_dialog .lleo_separator { height: 1px !important; margin-top: 10px !im=
+portant; background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(2=
+38, 238, 238) 8%, rgb(255, 255, 255) 80%) !important; }
+
+#lleo_dialog #lleo_trans { zoom: 1; padding: 5px 30px 0px 14px !important; =
+}
+
+#lleo_dialog .lleo_clearfix { display: block !important; clear: both !impor=
+tant; visibility: hidden !important; height: 0px !important; font-size: 0px=
+ !important; }
+
+#lleo_dialog #lleo_picOuter table { width: 44px !important; position: absol=
+ute !important; right: 0px !important; top: 0px !important; vertical-align:=
+ middle !important; }
+
+#lleo_dialog #lleo_picOuter td { width: 38px !important; height: 38px !impo=
+rtant; vertical-align: middle !important; text-align: center !important; }
+
+#lleo_dialog #lleo_picOuter td div { height: 38px !important; overflow: hid=
+den !important; }
+
+#lleo_dialog .lleo_empty { margin: 0px 5px 7px !important; }
+
+#lleo_youtubeExportBtn { margin-left: 10px; height: 24px; }
+
+#lleo_youtubeExportBtn i { display: inline-block; width: 16px; height: 16px=
+; background: url("https://d144fqpiyasmrr.cloudfront.net/plugins/all/images=
+/i16.png") 0px 0px !important; }
+
+#lleo_youtubeExportBtn .yt-uix-button-content { font-size: 12px; line-heigh=
+t: 2px; }
+
+.lleo_lyrics tran { background: transparent !important; border-radius: 2px =
+!important; text-shadow: none !important; cursor: pointer !important; }
+
+.lleo_lyrics tran:hover { color: rgb(255, 255, 255) !important; background:=
+ rgb(199, 114, 19) !important; transition: all 0.1s ease 0s !important; }
+
+.lleo_songName { border: 1px solid rgb(255, 212, 124); background: rgb(255,=
+ 241, 194); border-radius: 2px; }
+
+.lleo_hidden_iframe { visibility: hidden; }
+------MultipartBoundary--NOQildmfcujA6HOyxp5L62T6O6GJFmI3HhqFpCJu8B----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-7f5cdc32-71b6-46f5-a8a9-0f52a7397fee@mhtml.blink
+
+@charset "utf-8";
+
+@font-face { font-family: "Yandex Sans Text Web-Bold"; src: url("https://ya=
+static.net/yobject/v2/_/fonts/Yandex Sans Text Web-Bold.eot?#iefix") format=
+("embedded-opentype"), url("https://yastatic.net/yobject/v2/_/fonts/Yandex =
+Sans Text Web-Bold.woff2") format("woff2"), url("https://yastatic.net/yobje=
+ct/v2/_/fonts/Yandex Sans Text Web-Bold.woff") format("woff"); font-weight:=
+ 700; font-style: normal; font-stretch: normal; }
+
+@font-face { font-family: "Yandex Sans Text Web-Medium"; src: url("https://=
+yastatic.net/yobject/v2/_/fonts/Yandex Sans Text Web-Medium.eot?#iefix") fo=
+rmat("embedded-opentype"), url("https://yastatic.net/yobject/v2/_/fonts/Yan=
+dex Sans Text Web-Medium.woff2") format("woff2"), url("https://yastatic.net=
+/yobject/v2/_/fonts/Yandex Sans Text Web-Medium.woff") format("woff"); font=
+-weight: 700; font-style: normal; font-stretch: normal; }
+
+@font-face { font-family: "Yandex Sans Text Web-Regular"; src: url("https:/=
+/yastatic.net/yobject/v2/_/fonts/Yandex Sans Text Web-Regular.eot?#iefix") =
+format("embedded-opentype"), url("https://yastatic.net/yobject/v2/_/fonts/Y=
+andex Sans Text Web-Regular.woff2") format("woff2"), url("https://yastatic.=
+net/yobject/v2/_/fonts/Yandex Sans Text Web-Regular.woff") format("woff"); =
+font-weight: 400; font-style: normal; font-stretch: normal; }
+
+.yobject-doc_overflow_hidden { overflow: hidden; }
+
+.yobject-doc_overflow_hidden body { height: auto; }
+
+yobject { position: relative; display: inline; margin: 0px; padding: 0px; c=
+ursor: help; border-bottom: 1px dotted rgb(102, 102, 102); }
+
+yobject.yobject-item_active_yes { background: rgb(255, 205, 1); }
+
+#yinfo-badge { position: absolute; overflow: visible; left: 0px; top: 0px; }
+------MultipartBoundary--NOQildmfcujA6HOyxp5L62T6O6GJFmI3HhqFpCJu8B----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%8F/GitHubs/GitHub/python-basic-and-use/Lesson%2002/5.%20Built-in%20Exceptions%20%E2%80%94%20Python%203.6.2%20documentation_files/pydoctheme.css
+
+@charset "utf-8";
+
+@import url("default.css");
+
+body { background-color: white; margin-left: 1em; margin-right: 1em; }
+
+div.related { margin-bottom: 1.2em; padding: 0.5em 0px; border-top: 1px sol=
+id rgb(204, 204, 204); margin-top: 0.5em; }
+
+div.related a:hover { color: rgb(0, 149, 196); }
+
+div.related:first-child { border-top: 0px; border-bottom: 1px solid rgb(204=
+, 204, 204); }
+
+.inline-search { display: inline; }
+
+form.inline-search input { display: inline; }
+
+form.inline-search input[type=3D"submit"] { width: 30px; }
+
+div.sphinxsidebar { background-color: rgb(238, 238, 238); border-radius: 5p=
+x; line-height: 130%; font-size: smaller; }
+
+div.sphinxsidebar h3, div.sphinxsidebar h4 { margin-top: 1.5em; }
+
+div.sphinxsidebarwrapper > h3:first-child { margin-top: 0.2em; }
+
+div.sphinxsidebarwrapper > ul > li > ul > li { margin-bottom: 0.4em; }
+
+div.sphinxsidebar a:hover { color: rgb(0, 149, 196); }
+
+form.inline-search input, div.sphinxsidebar input { font-family: "Lucida Gr=
+ande", Arial, sans-serif; border: 1px solid rgb(153, 153, 153); font-size: =
+smaller; border-radius: 3px; }
+
+div.sphinxsidebar input[type=3D"text"] { max-width: 150px; }
+
+div.body { padding: 0px 0px 0px 1.2em; }
+
+div.body p { line-height: 140%; }
+
+div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h=
+6 { margin: 0px; border: 0px; padding: 0.3em 0px; }
+
+div.body hr { border: 0px; background-color: rgb(204, 204, 204); height: 1p=
+x; }
+
+div.body pre { border-radius: 3px; border: 1px solid rgb(170, 204, 153); }
+
+div.body div.admonition, div.body div.impl-detail { border-radius: 3px; }
+
+div.body div.impl-detail > p { margin: 0px; }
+
+div.body div.seealso { border: 1px solid rgb(221, 221, 102); }
+
+div.body a { color: rgb(0, 114, 170); }
+
+div.body a:visited { color: rgb(99, 99, 187); }
+
+div.body a:hover { color: rgb(0, 176, 228); }
+
+tt, code, pre { font-family: monospace, sans-serif; font-size: 96.5%; }
+
+div.body tt, div.body code { border-radius: 3px; }
+
+div.body tt.descname, div.body code.descname { font-size: 120%; }
+
+div.body tt.xref, div.body a tt, div.body code.xref, div.body a code { font=
+-weight: normal; }
+
+.deprecated { border-radius: 3px; }
+
+table.docutils { border: 1px solid rgb(221, 221, 221); min-width: 20%; bord=
+er-radius: 3px; margin-top: 10px; margin-bottom: 10px; }
+
+table.docutils td, table.docutils th { border-radius: 3px; border: 1px soli=
+d rgb(221, 221, 221) !important; }
+
+table p, table li { text-align: left !important; }
+
+table.docutils th { background-color: rgb(238, 238, 238); padding: 0.3em 0.=
+5em; }
+
+table.docutils td { background-color: white; padding: 0.3em 0.5em; }
+
+table.footnote, table.footnote td { border: 0px !important; }
+
+div.footer { line-height: 150%; margin-top: -2em; text-align: right; width:=
+ auto; margin-right: 10px; }
+
+div.footer a:hover { color: rgb(0, 149, 196); }
+
+.refcount { color: rgb(0, 102, 0); }
+
+.stableabi { color: rgb(34, 34, 153); }
+
+.highlight { background: none !important; }
+------MultipartBoundary--NOQildmfcujA6HOyxp5L62T6O6GJFmI3HhqFpCJu8B----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%8F/GitHubs/GitHub/python-basic-and-use/Lesson%2002/5.%20Built-in%20Exceptions%20%E2%80%94%20Python%203.6.2%20documentation_files/default.css
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--NOQildmfcujA6HOyxp5L62T6O6GJFmI3HhqFpCJu8B----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%8F/GitHubs/GitHub/python-basic-and-use/Lesson%2002/5.%20Built-in%20Exceptions%20%E2%80%94%20Python%203.6.2%20documentation_files/pygments.css
+
+@charset "utf-8";
+
+.highlight .hll { background-color: rgb(255, 255, 204); }
+
+.highlight { background: rgb(238, 255, 204); }
+
+.highlight .c { color: rgb(64, 128, 144); font-style: italic; }
+
+.highlight .err { border: 1px solid rgb(255, 0, 0); }
+
+.highlight .k { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .o { color: rgb(102, 102, 102); }
+
+.highlight .ch { color: rgb(64, 128, 144); font-style: italic; }
+
+.highlight .cm { color: rgb(64, 128, 144); font-style: italic; }
+
+.highlight .cp { color: rgb(0, 112, 32); }
+
+.highlight .cpf { color: rgb(64, 128, 144); font-style: italic; }
+
+.highlight .c1 { color: rgb(64, 128, 144); font-style: italic; }
+
+.highlight .cs { color: rgb(64, 128, 144); background-color: rgb(255, 240, =
+240); }
+
+.highlight .gd { color: rgb(160, 0, 0); }
+
+.highlight .ge { font-style: italic; }
+
+.highlight .gr { color: rgb(255, 0, 0); }
+
+.highlight .gh { color: rgb(0, 0, 128); font-weight: bold; }
+
+.highlight .gi { color: rgb(0, 160, 0); }
+
+.highlight .go { color: rgb(51, 51, 51); }
+
+.highlight .gp { color: rgb(198, 93, 9); font-weight: bold; }
+
+.highlight .gs { font-weight: bold; }
+
+.highlight .gu { color: rgb(128, 0, 128); font-weight: bold; }
+
+.highlight .gt { color: rgb(0, 68, 221); }
+
+.highlight .kc { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .kd { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .kn { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .kp { color: rgb(0, 112, 32); }
+
+.highlight .kr { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .kt { color: rgb(144, 32, 0); }
+
+.highlight .m { color: rgb(32, 128, 80); }
+
+.highlight .s { color: rgb(64, 112, 160); }
+
+.highlight .na { color: rgb(64, 112, 160); }
+
+.highlight .nb { color: rgb(0, 112, 32); }
+
+.highlight .nc { color: rgb(14, 132, 181); font-weight: bold; }
+
+.highlight .no { color: rgb(96, 173, 213); }
+
+.highlight .nd { color: rgb(85, 85, 85); font-weight: bold; }
+
+.highlight .ni { color: rgb(213, 85, 55); font-weight: bold; }
+
+.highlight .ne { color: rgb(0, 112, 32); }
+
+.highlight .nf { color: rgb(6, 40, 126); }
+
+.highlight .nl { color: rgb(0, 32, 112); font-weight: bold; }
+
+.highlight .nn { color: rgb(14, 132, 181); font-weight: bold; }
+
+.highlight .nt { color: rgb(6, 40, 115); font-weight: bold; }
+
+.highlight .nv { color: rgb(187, 96, 213); }
+
+.highlight .ow { color: rgb(0, 112, 32); font-weight: bold; }
+
+.highlight .w { color: rgb(187, 187, 187); }
+
+.highlight .mb { color: rgb(32, 128, 80); }
+
+.highlight .mf { color: rgb(32, 128, 80); }
+
+.highlight .mh { color: rgb(32, 128, 80); }
+
+.highlight .mi { color: rgb(32, 128, 80); }
+
+.highlight .mo { color: rgb(32, 128, 80); }
+
+.highlight .sa { color: rgb(64, 112, 160); }
+
+.highlight .sb { color: rgb(64, 112, 160); }
+
+.highlight .sc { color: rgb(64, 112, 160); }
+
+.highlight .dl { color: rgb(64, 112, 160); }
+
+.highlight .sd { color: rgb(64, 112, 160); font-style: italic; }
+
+.highlight .s2 { color: rgb(64, 112, 160); }
+
+.highlight .se { color: rgb(64, 112, 160); font-weight: bold; }
+
+.highlight .sh { color: rgb(64, 112, 160); }
+
+.highlight .si { color: rgb(112, 160, 208); font-style: italic; }
+
+.highlight .sx { color: rgb(198, 93, 9); }
+
+.highlight .sr { color: rgb(35, 83, 136); }
+
+.highlight .s1 { color: rgb(64, 112, 160); }
+
+.highlight .ss { color: rgb(81, 121, 24); }
+
+.highlight .bp { color: rgb(0, 112, 32); }
+
+.highlight .fm { color: rgb(6, 40, 126); }
+
+.highlight .vc { color: rgb(187, 96, 213); }
+
+.highlight .vg { color: rgb(187, 96, 213); }
+
+.highlight .vi { color: rgb(187, 96, 213); }
+
+.highlight .vm { color: rgb(187, 96, 213); }
+
+.highlight .il { color: rgb(32, 128, 80); }
+------MultipartBoundary--NOQildmfcujA6HOyxp5L62T6O6GJFmI3HhqFpCJu8B----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%8F/GitHubs/GitHub/python-basic-and-use/Lesson%2002/5.%20Built-in%20Exceptions%20%E2%80%94%20Python%203.6.2%20documentation_files/py.png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A
+/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9gEGxE4IQYzJ14AAAI3SURBVDjL
+ZZNPSFVBFIe/e9+zd3silBCl0SZoU4s2rVq0EB5tQip4UNvATVGu3QRBiyAi2iltWkgbF5EgRhFF
+RpiWtrWIzDIV1Pzz7p15M2fmtvDevOqBw8DM9zvnN8ycgF3R/eDtM2mac96ZdrFNxBikqbRV+vHH
+/ut9gAZczoe7C3gnF0f6au1OLM5avFi8d1Ea+JvAMSAq8nsKOGs5f2cYJ3Y7rc2PO4BqkS8DdD98
+f9tbe1ysCoxOBo1qlEXHJWcM4b5KPU19zleA0o4Clx99eO3EdqVewHsCoFRugUoVghJO7A6H6Vx9
+wdtYi27cr5x6dy/03nVtWTU7bWeZh6jNUcAiCaFTURl9A+gs56AviHzh3mnqtdPxm6knfQPLU7Ua
+okASQq/agY7yDrG16Mba6Pz48NP56VdrgAApYObGaicPtkovToFLQBKA/WUxTe3FRk4san15aGKg
+d3Dj560rrdGJS6FT0X9YYvLuiMKL1kAQOpHZ3PqfyZfP41+9PW1VfzX0RXFSECfgNEmSTgImdDru
+F2O0E8vvqZG1auQubAsKooIYYHpGvwA2g+xndQBHgWa6cG0ih5cW/w6VvEq3nChwCoBvs+bL2Z7V
+ceBHGTDAIrABpMVuhw+4OiLgLIglOLPYBTQAlfErIeCzjRVg1dtEb1kt5Omv+DTV2YssAN+zNdkz
+C42N9brV8WdvYp07seOdM2Of1F3AAknW0AJpwN6IgEPAEaANaMlcbmZdl7KRBuAfAb+v//yMAJoA
+AAAASUVORK5CYII=
+
+------MultipartBoundary--NOQildmfcujA6HOyxp5L62T6O6GJFmI3HhqFpCJu8B------

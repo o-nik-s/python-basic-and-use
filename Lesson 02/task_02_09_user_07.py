@@ -1,0 +1,1 @@
+open('dataset_24465_4_write.txt', 'w').writelines(reversed(open('dataset_24465_4.txt').readlines()))

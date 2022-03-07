@@ -1,0 +1,1 @@
+print(*reversed(open("sample.txt").readlines()), sep="")
